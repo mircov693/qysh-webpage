@@ -1,40 +1,50 @@
 nav {
-  /*background: lightslategray;*/
-  height: 60px;
   display: flex;
   justify-content: space-between;
-  /*border: 1px solid black;*/
-}
-div.start {
-  /*border: 1px solid black;*/
   align-items: center;
-  display: inline-flex;
 }
-a {
-  display: inline-flex;
+
+.sss {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  height: 100%;
-  padding-right: 10px;
-  padding-left: 10px;
-  text-decoration: none;
-  color: gray;
 }
-.selected {
-  border-bottom: 2px solid white;
-  padding-bottom: -5px;
-  color: white;
+
+.icon {
+  display: flex;
+  align-items: center;
 }
-a.button:not(.selected):hover {
-  border-bottom: 2px solid cyan;
-  padding-bottom: -5px;
-  color: cyan;
+
+.icon img {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
 }
-img {
-  height: 40px;
-  width: 40px;
-  border-radius: 8px;
-  display: block;
+
+.menu {
+  display: none;
 }
-.app-name {
-  padding-left: 10px;
+
+@media (max-width: 600px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+  }
+
+  .menu-line {
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hide {
+    display: none;
+  }
 }

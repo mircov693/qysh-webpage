@@ -11,4 +11,15 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })
-export class NavbarComponent {}
+export class NavbarComponent {
+
+  hideDropdown = ''
+
+  toggleDropdown() {
+    if (this.hideDropdown === '') {
+      this.hideDropdown = 'hide'
+    } else {
+      this.hideDropdown = ''
+    }
+  }
+}
