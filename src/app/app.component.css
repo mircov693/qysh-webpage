@@ -7,3 +7,9 @@ div p {
   justify-self: center;
   font-weight: bold;
 }
+
+@media (max-width: 600px) {
+  .app-container {
+    width: 100%;
+  }
+}
