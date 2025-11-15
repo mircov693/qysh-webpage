@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: ui-sans-serif, Helvetica Neue;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0;
+
+    .appLabel {
+        display: flex;
+        align-items: center;
+        gap: 5px 10px;
+    }
+
+    .appLabelImg {
+        border-radius: 10px;
+        max-width: 32px;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        gap: 5px 10px;
+
+        a {
+            text-decoration: none;
+            color: gray;
+        }
+    }
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
