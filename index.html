@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>QuitMate</title>
 </head>
 
@@ -15,7 +16,9 @@
         <p>QuitMate</p>
     </div>
 
-    <div class="menu">
+    <button class="menuButton" onclick="showHideMenu()">Menü</button>
+
+    <div class="menu" id="menu">
         <a href="#functions">Funktionen</a>
         <a href="#widgets">Widgets</a>
         <a href="#integrations">Integrationen</a>

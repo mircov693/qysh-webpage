@@ -24,7 +24,6 @@ body {
 
     .menu {
         display: flex;
-        flex-wrap: wrap;
         list-style-type: none;
         gap: 5px 10px;
 
@@ -34,6 +33,36 @@ body {
         }
     }
 
+    .menuMobile {
+        display: flex;
+        list-style-type: none;
+        gap: 5px 10px;
+
+        a {
+            text-decoration: none;
+            color: gray;
+        }
+    }
+
+    button {
+        display: none;
+    }
+
+    @media (max-width: 600px) {
+        button {
+            display: block;
+        }
+
+        .menu {
+            display: none;
+        }
+
+        .menuMobile {
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+    }
 }
 
 .footer {
