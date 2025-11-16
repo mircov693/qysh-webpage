@@ -84,6 +84,7 @@ section {
 
 .spacing-block {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 2rem 0 2rem 0;
     gap: 2rem;
@@ -95,6 +96,36 @@ section {
     border-radius: 1rem;
     padding:1rem;
     box-shadow: 0 10px 25px rgba(2, 8, 23, .45);;
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+@media (max-width: 600px) {
+    .card-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+.card {
+    padding: 1.2rem;
+    background: linear-gradient(180deg, rgba(15, 23, 42, .9), rgba(15, 23, 42, .7));
+    border: 1px solid rgba(148, 163, 184, .14);
+    border-radius: 1rem;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: rgba(34, 211, 238, .12);
+    border: 1px solid rgba(34, 211, 238, .35);
+    border-radius: .5rem;
 }
 
 .footer {
