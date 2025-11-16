@@ -229,7 +229,8 @@
 </section>
 
 <div class="footer">
-    <p>&#169; 2025 Vladimir Cabacov</p>
+    <p>Vladimir Cabacov &#169; <span id="year">year</span></p>
+    <script>document.getElementById("year").textContent = new Date().getFullYear().toString()</script>
 </div>
 
 </body>
