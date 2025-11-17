@@ -19,7 +19,6 @@ body {
         gap: 0.5rem;
 
         img {
-            border-radius: 0.5rem;
             max-width: 2.5rem;
         }
     }
