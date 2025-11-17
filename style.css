@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: ui-sans-serif, Helvetica Neue;
-    background: black;
+    background: linear-gradient(45deg, black, cyan 60%, black);
     color: #e5e7eb
 }
 
