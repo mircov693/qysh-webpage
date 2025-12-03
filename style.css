@@ -176,8 +176,9 @@ a {
 
 .footer {
     display: flex;
-    justify-content: space-between;
-    margin: 0 3rem;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    margin: 1rem 3rem;
 }
 
 #languages {
