@@ -34,7 +34,9 @@ async function changeLanguage(lang) {
 }
 
 window.addEventListener('DOMContentLoaded', async () => {
-    const userPreferredLanguage = localStorage.getItem('language') || 'en';
+    const urlParams = new URLSearchParams(window.location.search);
+    const queryLanguage = urlParams.get('lang') || 'en';
+    const userPreferredLanguage = localStorage.getItem('language') || queryLanguage;
     document.getElementById('languages').value = userPreferredLanguage
     const langData = await fetchLanguageData(userPreferredLanguage);
     updateContent(langData);
