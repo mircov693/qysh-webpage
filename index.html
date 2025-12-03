@@ -227,8 +227,11 @@
 
 <div class="footer">
     <p>Vladimir Cabacov &#169; <span id="year">year</span></p>
-    <a href="#" onclick="changeLanguage('de')">DE</a>
-    <a href="#" onclick="changeLanguage('en')">EN</a>
+    <label for="languages"></label>
+    <select name="languages" id="languages" onchange="changeLanguage(this.value)">
+        <option value="en">English</option>
+        <option value="de">Deutsch</option>
+    </select>
 </div>
 
 <script src="script.js"></script>

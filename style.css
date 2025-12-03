@@ -176,5 +176,16 @@ a {
 
 .footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+#languages {
+    background: none;
+    border: none;
+    color: var(--primary-text-color);
+}
+
+#languages:focus {
+    outline: none;
 }
