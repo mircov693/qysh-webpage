@@ -16,9 +16,13 @@ function updateContent(langData) {
     });
 }
 
+function updateBadges(lang) {
+    document.getElementById('app-store-badge').src = `badges/apple/${lang}.svg`;
+    document.getElementById('google-play-badge').src = `badges/google/${lang}.svg`;
+}
+
 function setLanguagePreference(lang) {
     localStorage.setItem('language', lang);
-    location.reload();
 }
 
 async function fetchLanguageData(lang) {
@@ -27,10 +31,10 @@ async function fetchLanguageData(lang) {
 }
 
 async function changeLanguage(lang) {
-    await setLanguagePreference(lang);
-
+    setLanguagePreference(lang);
     const langData = await fetchLanguageData(lang);
     updateContent(langData);
+    updateBadges(lang);
 }
 
 window.addEventListener('DOMContentLoaded', async () => {
@@ -40,4 +44,5 @@ window.addEventListener('DOMContentLoaded', async () => {
     document.getElementById('languages').value = userPreferredLanguage
     const langData = await fetchLanguageData(userPreferredLanguage);
     updateContent(langData);
+    updateBadges(queryLanguage);
 });
