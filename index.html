@@ -1,49 +1,267 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
-    <title>QuitMate</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QYSH</title>
 </head>
 
 <body>
 
-<div class="container-fluid bg-body-secondary">
-
-    <div class="row pt-5 pb-5 text-center align-content-center">
-
-        <div class="col">
-            <img src="images/appicon.png" alt="Application icon" width="128" height="128"
-                 class="d-inline-block align-text-top rounded-5">
-        </div>
-
-        <div class="col bg-dark-subtle rounded-start-5 text-start d-flex align-items-center">
-            <h1 class="text-dark fw-semibold display-1">QuitMate App</h1>
-        </div>
-
+<nav class="navbar">
+    <div class="app-label">
+        <img src="images/QYSHIcon-iOS-Default-1024x1024@1x.png" alt="app icon">
+        <p>QYSH</p>
     </div>
 
-    <div class="row m-5 text-center justify-content-center">
-        <div class="col-2 text-white p-1 align-self-center">
-            <a class="btn btn-dark" href="index.html">Home</a>
+    <a class="burger-menu">
+        <div class="burger-menu-item one"></div>
+        <div class="burger-menu-item two"></div>
+        <div class="burger-menu-item tree"></div>
+    </a>
+
+    <div class="menu" id="menu">
+        <a href="#functions" data-i18n="menu-functions"></a>
+        <a href="#integrations" data-i18n="menu-integrations"></a>
+        <a href="#privacy" data-i18n="menu-privacy"></a>
+        <a href="#faq" data-i18n="menu-faq"></a>
+    </div>
+</nav>
+
+<section id="main">
+    <div class="badge">iOS · Watch OS · Android · Wear OS · <span data-i18n="widgets"></span></div>
+
+    <h1 data-i18n="main-title"></h1>
+    <p data-i18n="main-app-description"></p>
+
+    <div class="spacing-block">
+        <a class="button" href="#download" data-i18n="download"></a>
+    </div>
+
+    <div class="badge-list">
+        <div class="badge" data-i18n="badge-countdown"></div>
+        <div class="badge" data-i18n="badge-statistic"></div>
+        <div class="badge" data-i18n="badge-watch"></div>
+        <div class="badge" data-i18n="badge-iqos"></div>
+    </div>
+
+    <div class="spacing-block image-container">
+        <div class="image" aria-label="Countdown">
+            <img src="images/iOSCountdown.png" alt="QYSH – Screenshot">
         </div>
-        <div class="col-2 text-white p-1 align-self-center">
-            <a class="btn btn-dark" href="privacy.html">Privacy</a>
+
+        <div class="image" aria-label="Apple Watch Countdown">
+            <img src="images/WatchCountdown.png" alt="QYSH – Apple Watch Screenshot">
         </div>
-        <div class="col-2 text-white p-1 align-self-center">
-            <a class="btn btn-dark" href="support.html">Support</a>
+
+        <div class="image" aria-label="Appel Watch Countdown">
+            <img src="images/WatchAdd.png" alt="QYSH – Apple Watch Screenshot">
+        </div>
+    </div>
+</section>
+
+<section id="motivation">
+    <h2 data-i18n="motivation-title"></h2>
+    <p data-i18n="motivation-description"></p>
+    <div class="card-list">
+        <div class="card">
+            <div class="icon">⏱️</div>
+            <h3 data-i18n="card-countdown-title"></h3>
+            <p data-i18n="card-countdown-description"></p>
+        </div>
+        <div class="card">
+            <div class="icon">📈</div>
+            <h3 data-i18n="card-statistic-title"></h3>
+            <p data-i18n="card-statistic-description"></p>
+        </div>
+        <div class="card">
+            <div class="icon">🎯</div>
+            <h3 data-i18n="card-goals-title"></h3>
+            <p data-i18n="card-goals-description"></p>
+        </div>
+        <div class="card">
+            <div class="icon">🔔</div>
+            <h3 data-i18n="card-notifications-title"></h3>
+            <p data-i18n="card-notifications-description"></p>
         </div>
     </div>
 
-    <div class="row pb-5 text-center justify-content-center">
-        <p>&#169; 2023 Vladimir Cabacov</p>
+    <div class="spacing-block">
+        <div class="image" aria-label="Statistics">
+            <img src="images/iOSStatsMonth.png" alt="QYSH – Statistics Screenshot">
+        </div>
+        <div class="image" aria-label="Apple Watch Statistics">
+            <img src="images/iOSStatsYear.png" alt="QYSH – Statistics Screenshot">
+        </div>
     </div>
+</section>
 
+<section id="functions">
+    <h1 data-i18n="functions-title"></h1>
+    <div class="card-list">
+        <div class="card">
+            <h3 data-i18n="function-countdown-title"></h3>
+            <p data-i18n="function-countdown-description"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="function-statistic-title"></h3>
+            <p data-i18n="function-statistic-description"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="function-settings-title"></h3>
+            <p data-i18n="function-settings-description"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="function-widgets-title"></h3>
+            <p data-i18n="function-widgets-description"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="function-watch-title"></h3>
+            <p data-i18n="function-watch-description"></p>
+        </div>
+    </div>
+</section>
+
+<section id="widgets">
+    <h1 data-i18n="widgets-title"></h1>
+    <p data-i18n="widgets-description"></p>
+    <div class="card-list">
+        <div class="card">
+            <h3 data-i18n="widget-actual-title"></h3>
+            <p data-i18n="widget-actual-description"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="widget-device-title"></h3>
+            <p data-i18n="widget-device-description"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="widget-watch-title"></h3>
+            <p data-i18n="widget-watch-description"></p>
+        </div>
+    </div>
+</section>
+
+<section id="integrations">
+    <h1 data-i18n="integrations-title"></h1>
+    <p data-i18n="integrations-description"></p>
+    <ul>
+        <li data-i18n="integration-auto-count"></li>
+        <li data-i18n="integration-status"></li>
+        <li data-i18n="integration-notifications"></li>
+        <li data-i18n="integration-settings"></li>
+        <li data-i18n="integration-device-count"></li>
+    </ul>
+</section>
+
+<section id="privacy">
+    <h1 data-i18n="privacy-title"></h1>
+    <p data-i18n="privacy-user-data"></p>
+    <p data-i18n="privacy-update"></p>
+</section>
+
+<section id="faq">
+    <h1 data-i18n="faq-title"></h1>
+    <div class="card-list">
+        <div class="card">
+            <h3 data-i18n="faq-question-plan"></h3>
+            <p data-i18n="faq-answer-plan"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="faq-question-costs"></h3>
+            <p data-i18n="faq-answer-costs"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="faq-question-manual-input"></h3>
+            <p data-i18n="faq-answer-manual-input"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="faq-question-background"></h3>
+            <p data-i18n="faq-answer-background"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="faq-question-device-widget"></h3>
+            <p data-i18n="faq-answer-device-widget"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="faq-question-device-battery-low"></h3>
+            <p data-i18n="faq-answer-device-battery-low"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="faq-question-connection-issue"></h3>
+            <p data-i18n="faq-answer-connection-issue"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="faq-question-watch-companion"></h3>
+            <p data-i18n="faq-answer-watch-companion"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="faq-question-device-settings"></h3>
+            <p data-i18n="faq-answer-device-settings"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="faq-question-background-task"></h3>
+            <p data-i18n="faq-answer-background-task"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="faq-question-double-session-recognition"></h3>
+            <p data-i18n="faq-answer-double-session-recognition"></p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="faq-question-privacy"></h3>
+            <p data-i18n="faq-answer-privacy"></p>
+        </div>
+    </div>
+</section>
+
+<section id="download">
+    <h1 data-i18n="download-title"></h1>
+    <p data-i18n="download-description"></p>
+    <div class="spacing-block">
+        <!--  TODO: Link      -->
+        <a href="http://localhost"><img id="app-store-badge" src="badges/apple/en.svg" height="100"></a>
+        <a href="http://localhost"><img id="google-play-badge" src="badges/google/en.svg" height="100"></a>
+    </div>
+</section>
+
+<section class="legal-notice">
+    <h2 data-i18n="legal-notice"></h2>
+    <h3>mircov</h3>
+    <p>Vladimir Cabacov</p>
+    <p>Germaniastr. 30, 40223 Düsseldof</p>
+    <p>+49 211 15206693</p>
+    <p>info@mircov.com</p>
+    <p>USt-ID: </p>
+</section>
+
+<div class="footer">
+    <p>Vladimir Cabacov &#169; <span id="year">year</span></p>
+    <select id="languages" name="languages" aria-label="Language" onchange="changeLanguage(this.value)">
+        <option value="bg">Български</option>
+        <option value="cs">Čeština</option>
+        <option value="da">Dansk</option>
+        <option value="de">Deutsch</option>
+        <option value="el">Ελληνικά</option>
+        <option value="es">Español</option>
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+        <option value="hu">Magyar</option>
+        <option value="id">Indonesia</option>
+        <option value="it">Italiano</option>
+        <option value="nl">Nederlands</option>
+        <option value="pl">Polski</option>
+        <option value="pt">Português</option>
+        <option value="ro">Română</option>
+        <option value="ru">Русский</option>
+        <option value="sk">Slovenčina</option>
+        <option value="sv">Svenska</option>
+        <option value="tr">Türkçe</option>
+        <option value="uk">Українська</option>
+    </select>
 </div>
+
+<script src="script.js"></script>
 
 </body>
 
