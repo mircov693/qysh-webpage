@@ -5,15 +5,15 @@
   "menu-faq": "SSS",
 
   "main-title": "Daha fazla kontrol. Daha az sigara. Senin hızında.",
-  "main-app-description": "QuitMate, alışkanlıklarını anlamana, sigara sayını azaltmana ve hedefine ulaşmana yardımcı olur – net istatistikler, akıllı sayaçlar ve sorunsuz cihaz entegrasyonu ile.",
+  "main-app-description": "QYSH, alışkanlıklarını anlamana, sigara sayını azaltmana ve hedefine ulaşmana yardımcı olur – net istatistikler, akıllı sayaçlar ve sorunsuz cihaz entegrasyonu ile.",
 
   "badge-countdown": "Sonraki oturuma kadar geri sayım",
   "badge-statistic": "Etkileşimli istatistikler",
   "badge-watch": "watchOS ve Wear OS desteği",
   "badge-iqos": "IQOS desteği",
 
-  "motivation-title": "Neden QuitMate?",
-  "motivation-description": "Sigarayı azaltmak kolay değil – ama doğru araçla mümkün. QuitMate, hedefinden sapmadan ilerleyebilmen için net veriler, motive edici istatistikler ve akıllı sayaçlar sunar.",
+  "motivation-title": "Neden QYSH?",
+  "motivation-description": "Sigarayı azaltmak kolay değil – ama doğru araçla mümkün. QYSH, hedefinden sapmadan ilerleyebilmen için net veriler, motive edici istatistikler ve akıllı sayaçlar sunar.",
 
   "card-countdown-title": "Geri sayım ve kontrol",
   "card-countdown-description": "Bir sonraki oturumun tam olarak ne zaman olduğunu, bugün kaç oturum yaptığını ve hangi limitin geçerli olduğunu gör.",
@@ -46,7 +46,7 @@
   "widget-watch-description": "Geri sayım ve cihazın şarj durumu – doğrudan bileğinde.",
 
   "integrations-title": "IQOS entegrasyonu – bağlı ve kontrol altında",
-  "integrations-description": "IQOS cihazlarını QuitMate içinde doğrudan bağla, takip et ve kontrol et.",
+  "integrations-description": "IQOS cihazlarını QYSH içinde doğrudan bağla, takip et ve kontrol et.",
   "integration-auto-count": "Kullanım sırasında oturumların otomatik sayımı",
   "integration-status": "Pil seviyesi ve bağlantı durumu",
   "integration-notifications": "Bildirimler: şarj cihazında değil, bağlantı kesildi, pil düşük/dolu",
@@ -58,7 +58,7 @@
   "privacy-update": "Uygulamanın gizlilik uygulamaları değişirse bu politika güncellenecektir.",
 
   "download-title": "İlk adımı atmaya hazır mısın?",
-  "download-description": "QuitMate’i indir ve kişisel planına bugün başla.",
+  "download-description": "QYSH’i indir ve kişisel planına bugün başla.",
   "download": "İndir",
 
   "faq-title": "SSS",

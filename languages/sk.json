@@ -5,15 +5,15 @@
   "menu-faq": "Časté otázky",
 
   "main-title": "Viac kontroly. Menej cigariet. Tvojím tempom.",
-  "main-app-description": "QuitMate ti pomáha porozumieť tvojim návykom, znížiť počet cigariet a dosiahnuť cieľ – vďaka prehľadným štatistikám, inteligentným časovačom a plynulej integrácii zariadení.",
+  "main-app-description": "QYSH ti pomáha porozumieť tvojim návykom, znížiť počet cigariet a dosiahnuť cieľ – vďaka prehľadným štatistikám, inteligentným časovačom a plynulej integrácii zariadení.",
 
   "badge-countdown": "Odpočítavanie do ďalšej relácie",
   "badge-statistic": "Interaktívne štatistiky",
   "badge-watch": "Podpora watchOS a Wear OS",
   "badge-iqos": "Podpora IQOS",
 
-  "motivation-title": "Prečo QuitMate?",
-  "motivation-description": "Obmedziť fajčenie nie je jednoduché – ale so správnym nástrojom je to zvládnuteľné. QuitMate ti ponúka jasné údaje, motivujúce štatistiky a inteligentné časovače, aby si dosiahol svoj cieľ bez straty kontroly.",
+  "motivation-title": "Prečo QYSH?",
+  "motivation-description": "Obmedziť fajčenie nie je jednoduché – ale so správnym nástrojom je to zvládnuteľné. QYSH ti ponúka jasné údaje, motivujúce štatistiky a inteligentné časovače, aby si dosiahol svoj cieľ bez straty kontroly.",
 
   "card-countdown-title": "Odpočítavanie a kontrola",
   "card-countdown-description": "Presne vidíš, kedy bude ďalšia relácia, koľko ich máš dnes za sebou a aký limit platí.",
@@ -46,7 +46,7 @@
   "widget-watch-description": "Odpočítavanie a stav nabitia zariadenia – priamo na zápästí.",
 
   "integrations-title": "Integrácia IQOS – pripojené a pod kontrolou",
-  "integrations-description": "Pripájaj, sleduj a ovládaj svoje zariadenia IQOS priamo v QuitMate.",
+  "integrations-description": "Pripájaj, sleduj a ovládaj svoje zariadenia IQOS priamo v QYSH.",
   "integration-auto-count": "Automatické počítanie relácií počas používania",
   "integration-status": "Úroveň nabitia batérie a stav pripojenia",
   "integration-notifications": "Upozornenia: mimo nabíjačky, pripojenie stratené, nízka/plná batéria",
@@ -58,7 +58,7 @@
   "privacy-update": "Tieto zásady budú aktualizované, ak sa praktiky ochrany súkromia aplikácie zmenia.",
 
   "download-title": "Pripravený urobiť prvý krok?",
-  "download-description": "Stiahni si QuitMate a začni svoj osobný plán ešte dnes.",
+  "download-description": "Stiahni si QYSH a začni svoj osobný plán ešte dnes.",
   "download": "Stiahnuť",
 
   "faq-title": "Časté otázky",

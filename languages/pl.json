@@ -5,15 +5,15 @@
   "menu-faq": "FAQ",
 
   "main-title": "Więcej kontroli. Mniej papierosów. W twoim tempie.",
-  "main-app-description": "QuitMate pomaga lepiej zrozumieć twoje nawyki, zmniejszyć liczbę papierosów i osiągnąć cel – dzięki czytelnym statystykom, sprytnym timerom i płynnej integracji z urządzeniami.",
+  "main-app-description": "QYSH pomaga lepiej zrozumieć twoje nawyki, zmniejszyć liczbę papierosów i osiągnąć cel – dzięki czytelnym statystykom, sprytnym timerom i płynnej integracji z urządzeniami.",
 
   "badge-countdown": "Odliczanie do następnej sesji",
   "badge-statistic": "Interaktywne statystyki",
   "badge-watch": "Obsługa watchOS i Wear OS",
   "badge-iqos": "Obsługa IQOS",
 
-  "motivation-title": "Dlaczego QuitMate?",
-  "motivation-description": "Ograniczenie palenia nie jest łatwe – ale z odpowiednim narzędziem jest jak najbardziej możliwe. QuitMate daje ci przejrzyste dane, motywujące statystyki i inteligentne timery, dzięki którym osiągniesz swój cel, nie tracąc kontroli.",
+  "motivation-title": "Dlaczego QYSH?",
+  "motivation-description": "Ograniczenie palenia nie jest łatwe – ale z odpowiednim narzędziem jest jak najbardziej możliwe. QYSH daje ci przejrzyste dane, motywujące statystyki i inteligentne timery, dzięki którym osiągniesz swój cel, nie tracąc kontroli.",
 
   "card-countdown-title": "Odliczanie i kontrola",
   "card-countdown-description": "Dokładnie widzisz, kiedy będzie następna sesja, ile sesji miałeś dziś i jaki limit aktualnie obowiązuje.",
@@ -46,7 +46,7 @@
   "widget-watch-description": "Odliczanie i status ładowania urządzenia – bezpośrednio na nadgarstku.",
 
   "integrations-title": "Integracja z IQOS – połączenie i pełna kontrola",
-  "integrations-description": "Podłączaj, monitoruj i kontroluj swoje urządzenia IQOS bezpośrednio w QuitMate.",
+  "integrations-description": "Podłączaj, monitoruj i kontroluj swoje urządzenia IQOS bezpośrednio w QYSH.",
   "integration-auto-count": "Automatyczne zliczanie sesji podczas używania",
   "integration-status": "Poziom baterii i status połączenia",
   "integration-notifications": "Powiadomienia: urządzenie poza ładowarką, utracone połączenie, niski/pełny poziom baterii",
@@ -58,7 +58,7 @@
   "privacy-update": "Ta polityka zostanie zaktualizowana, jeśli praktyki prywatności aplikacji ulegną zmianie.",
 
   "download-title": "Gotowy na pierwszy krok?",
-  "download-description": "Pobierz QuitMate i rozpocznij swój osobisty plan już dziś.",
+  "download-description": "Pobierz QYSH i rozpocznij swój osobisty plan już dziś.",
   "download": "Pobierz",
 
   "faq-title": "FAQ",

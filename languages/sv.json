@@ -5,15 +5,15 @@
   "menu-faq": "Vanliga frågor",
 
   "main-title": "Mer kontroll. Färre cigaretter. I din egen takt.",
-  "main-app-description": "QuitMate hjälper dig att förstå dina vanor, minska rökningen och nå ditt mål – med tydlig statistik, smarta timers och sömlös enhetsintegration.",
+  "main-app-description": "QYSH hjälper dig att förstå dina vanor, minska rökningen och nå ditt mål – med tydlig statistik, smarta timers och sömlös enhetsintegration.",
 
   "badge-countdown": "Nedräkning till nästa tillfälle",
   "badge-statistic": "Interaktiv statistik",
   "badge-watch": "Stöd för watchOS och Wear OS",
   "badge-iqos": "Stöd för IQOS",
 
-  "motivation-title": "Varför QuitMate?",
-  "motivation-description": "Att minska rökningen är inte lätt – men med rätt verktyg är det möjligt. QuitMate ger dig tydliga data, motiverande statistik och smarta timers så att du når ditt mål utan att tappa kontrollen.",
+  "motivation-title": "Varför QYSH?",
+  "motivation-description": "Att minska rökningen är inte lätt – men med rätt verktyg är det möjligt. QYSH ger dig tydliga data, motiverande statistik och smarta timers så att du når ditt mål utan att tappa kontrollen.",
 
   "card-countdown-title": "Nedräkning och kontroll",
   "card-countdown-description": "Se exakt när nästa tillfälle är, hur många du har haft idag och vilken gräns som gäller.",
@@ -46,7 +46,7 @@
   "widget-watch-description": "Nedräkning och enhetens laddningsstatus – direkt på handleden.",
 
   "integrations-title": "IQOS‑integration – uppkopplad och under kontroll",
-  "integrations-description": "Anslut, övervaka och styr dina IQOS‑enheter direkt i QuitMate.",
+  "integrations-description": "Anslut, övervaka och styr dina IQOS‑enheter direkt i QYSH.",
   "integration-auto-count": "Automatisk räkning av tillfällen under användning",
   "integration-status": "Batterinivå och anslutningsstatus",
   "integration-notifications": "Aviseringar: inte i laddaren, anslutning tappad, låg/full batterinivå",
@@ -58,7 +58,7 @@
   "privacy-update": "Denna policy uppdateras om appens integritetspraxis ändras.",
 
   "download-title": "Redo att ta första steget?",
-  "download-description": "Ladda ner QuitMate och starta din personliga plan redan idag.",
+  "download-description": "Ladda ner QYSH och starta din personliga plan redan idag.",
   "download": "Ladda ner",
 
   "faq-title": "Vanliga frågor",
