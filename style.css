@@ -210,7 +210,7 @@ a {
     outline: none;
 }
 
-#legal {
+.body-text {
     font-size: 0.9rem;
     color: #94a3b8;
     line-height: 1.6;
