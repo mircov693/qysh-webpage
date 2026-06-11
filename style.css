@@ -7,6 +7,10 @@
     scroll-behavior: smooth;
 }
 
+html {
+    scroll-padding-top: 4rem;
+}
+
 body {
     margin: 0;
     font-family: ui-sans-serif, Helvetica Neue;

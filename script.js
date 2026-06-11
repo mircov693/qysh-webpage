@@ -50,6 +50,41 @@ async function changeLanguage(lang) {
     updateBadges(lang);
 }
 
+function scrollToHashFragment() {
+    const hash = window.location.hash.substring(1);
+    if (hash) {
+        const element = document.getElementById(hash);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    }
+}
+
+window.addEventListener('load', () => {
+    const images = document.querySelectorAll('img');
+    if (images.length === 0) {
+        scrollToHashFragment();
+        return;
+    }
+    
+    let loadedCount = 0;
+    const checkAllLoaded = () => {
+        loadedCount++;
+        if (loadedCount === images.length) {
+            setTimeout(scrollToHashFragment, 100);
+        }
+    };
+    
+    images.forEach(img => {
+        if (img.complete) {
+            checkAllLoaded();
+        } else {
+            img.addEventListener('load', checkAllLoaded);
+            img.addEventListener('error', checkAllLoaded);
+        }
+    });
+});
+
 window.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const queryLanguage = urlParams.get('lang') || 'en';
