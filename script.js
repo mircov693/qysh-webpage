@@ -85,10 +85,25 @@ window.addEventListener('load', () => {
     });
 });
 
+const SUPPORTED_LANGUAGES = ['bg', 'cs', 'da', 'de', 'el', 'es', 'en', 'fr', 'hu', 'id', 'it', 'nl', 'pl', 'pt', 'ro', 'ru', 'sk', 'sv', 'tr', 'uk'];
+
+function isLanguageSupported(lang) {
+    return SUPPORTED_LANGUAGES.includes(lang);
+}
+
 window.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const queryLanguage = urlParams.get('lang') || 'en';
+    
+    if (!isLanguageSupported(queryLanguage)) {
+        queryLanguage = 'en';
+    }
     const userPreferredLanguage = localStorage.getItem('language') || queryLanguage;
+
+    if (!isLanguageSupported(userPreferredLanguage)) {
+        localStorage.removeItem('language');
+    }
+
     document.getElementById('languages').value = userPreferredLanguage
     const langData = await fetchLanguageData(userPreferredLanguage);
     updateContent(langData);
