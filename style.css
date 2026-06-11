@@ -4,6 +4,7 @@
     --button-color: #22d3ee;
     --primary-text-color: #e5e7eb;
     --dark-gray-color: #94a3b81f;
+    scroll-behavior: smooth;
 }
 
 body {

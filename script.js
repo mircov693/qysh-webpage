@@ -6,7 +6,20 @@ function showHideMenu() {
     burgerMenu.classList.toggle("open"); 
 }
 
+function closeMenu() {
+    const menu = document.getElementById("menu");
+    const burgerMenu = document.querySelector('.burger-menu');
+    menu.classList.remove("open");
+    burgerMenu.classList.remove("open");
+    burgerMenu.setAttribute('aria-expanded', 'false');
+}
+
 document.querySelector('.burger-menu').addEventListener('click', showHideMenu);
+
+document.querySelectorAll('.menu a').forEach(link => {
+    link.addEventListener('click', closeMenu);
+});
+
 document.getElementById("year").textContent = new Date().getFullYear().toString()
 
 function updateContent(langData) {
