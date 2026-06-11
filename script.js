@@ -102,6 +102,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 
     if (!isLanguageSupported(userPreferredLanguage)) {
         localStorage.removeItem('language');
+        userPreferredLanguage = 'en';
     }
 
     document.getElementById('languages').value = userPreferredLanguage
