@@ -43,11 +43,24 @@ async function fetchLanguageData(lang) {
     return response.json();
 }
 
+async function fetchDisclamerEn(lang) {
+    const container = document.getElementById('iqos-disclaimer-en-container');
+    if (lang !== 'en') {
+        const response = await fetch(`languages/en.json`);
+        const langData = await response.json();
+        document.getElementById('iqos-disclaimer-en').innerHTML = langData['iqos-disclaimer'];
+        container.style.display = 'block';
+    } else {
+        container.style.display = 'none';
+    }
+}
+
 async function changeLanguage(lang) {
     setLanguagePreference(lang);
     const langData = await fetchLanguageData(lang);
     updateContent(langData);
     updateBadges(lang);
+    fetchDisclamerEn(lang);
 }
 
 function scrollToHashFragment() {
@@ -109,4 +122,5 @@ window.addEventListener('DOMContentLoaded', async () => {
     const langData = await fetchLanguageData(userPreferredLanguage);
     updateContent(langData);
     updateBadges(userPreferredLanguage);
+    fetchDisclamerEn(userPreferredLanguage);
 });
