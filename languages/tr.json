@@ -53,7 +53,7 @@
   "integration-device-count": "Aynı anda dört cihaza kadar destek",
 
   "privacy-title": "Gizlilik",
-  "privacy-user-data": "Bu uygulama herhangi bir kullanıcı verisi toplamaz.",
+  "privacy-user-data": "Bu uygulama kullanıcı verisi toplamaz. Tüm veriler yerel olarak cihazınızda saklanır.",
   "privacy-update": "Uygulamanın gizlilik uygulamaları değişirse bu politika güncellenecektir.",
 
   "download-title": "İlk adımı atmaya hazır mısın?",
