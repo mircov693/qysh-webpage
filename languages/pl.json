@@ -88,5 +88,6 @@
 
   "widgets": "Widgety",
   "legal-notice": "Informacje prawne",
-  "iqos-disclaimer": "IQOS jest znakiem towarowym należącym do Philip Morris Products S.A. Vladimir Cabacov (mircov) nie jest powiązany z, reprezentantem ani agentem Philip Morris Products S.A., a produkty Vladimir Cabacov (mircov) nie są zatwierdzane, recenzowane, testowane ani wspierane przez Philip Morris Products S.A. Całą odpowiedzialność za te produkty ponosi Vladimir Cabacov (mircov) jako producent."
+  "iqos-disclaimer": "IQOS jest znakiem towarowym należącym do Philip Morris Products S.A. Vladimir Cabacov (mircov) nie jest powiązany z, reprezentantem ani agentem Philip Morris Products S.A., a produkty Vladimir Cabacov (mircov) nie są zatwierdzane, recenzowane, testowane ani wspierane przez Philip Morris Products S.A. Całą odpowiedzialność za te produkty ponosi Vladimir Cabacov (mircov) jako producent.",
+  "medical-disclaimer": "Aplikacja QYSH to narzędzie motywacyjne i monitorujące, zaprojektowane w celu wspierania budowania osobistych nawyków. Aplikacja nie zapewnia porad medycznych, terapeutycznych ani psychologicznych, diagnozy ani leczenia. Nie zastępuje profesjonalnej porady medycznej ani doradztwa w zakresie uzależnień. Korzystanie z aplikacji odbywa się na własne ryzyko."
 }
