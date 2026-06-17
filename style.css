@@ -90,6 +90,10 @@ body {
     gap: 1rem;
 }
 
+section {
+    padding: 3rem;
+}
+
 @media (max-width: 750px) {
     .navbar .menu {
         display: none;
@@ -110,10 +114,10 @@ body {
     .card-list {
         grid-template-columns: 1fr;
     }
-}
 
-section {
-    padding: 3rem;
+    section {
+        padding: 1rem;
+    }
 }
 
 .badge {
@@ -214,4 +218,9 @@ a {
     font-size: 0.9rem;
     color: #94a3b8;
     line-height: 1.6;
+}
+
+.divider {
+    margin: 2rem 0;
+    opacity: 0.3;
 }
