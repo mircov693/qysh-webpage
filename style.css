@@ -8,11 +8,12 @@
 }
 
 html {
-    scroll-padding-top: 4rem;
+    background-color: black;
 }
 
 body {
     margin: 0;
+    padding-bottom: 1rem;
     font-family: ui-sans-serif, Helvetica Neue;
     background: linear-gradient(45deg, black, var(--cyan-color), black, var(--cyan-color), black);
     color: var(--primary-text-color);
@@ -23,8 +24,8 @@ body {
     top: 0;
     z-index: 100;
     display: flex;
-    background-color: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(.2rem);
+    background: linear-gradient(0, rgba(0, 0, 0, .3), black);
+    backdrop-filter: blur(0.3rem);
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
@@ -49,7 +50,7 @@ body {
 
 .navbar .menu a {
     text-decoration: none;
-    color: gray;
+    color: white;
     transition: transform 0.2s ease;
 }
 
@@ -202,6 +203,10 @@ a {
     align-items: center;
     flex-wrap: wrap-reverse;
     margin: 1rem 3rem;
+}
+
+select {
+  font-size: 1em;
 }
 
 #languages {
