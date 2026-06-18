@@ -100,6 +100,15 @@ section {
     width: auto;
 }
 
+.badge-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+    gap: 2rem;
+}
+
 @media (max-width: 750px) {
     .navbar .menu {
         display: none;
@@ -123,6 +132,10 @@ section {
 
     section {
         padding: 1rem;
+    }
+
+    .badge-block {
+        flex-direction: column;
     }
 
     .badge-link img {
