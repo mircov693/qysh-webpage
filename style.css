@@ -95,6 +95,11 @@ section {
     padding: 3rem;
 }
 
+.badge-link img {
+    height: 100px;
+    width: auto;
+}
+
 @media (max-width: 750px) {
     .navbar .menu {
         display: none;
@@ -118,6 +123,11 @@ section {
 
     section {
         padding: 1rem;
+    }
+
+    .badge-link img {
+        width: 300px;
+        height: auto;
     }
 }
 
