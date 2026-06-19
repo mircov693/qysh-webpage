@@ -53,10 +53,10 @@
   "integration-device-count": "Bis zu vier Geräte gleichzeitig",
 
   "privacy-title": "Datenschutzerklärung",
-  "privacy-intro": "Diese Datenschutzerklärung gilt für diese Website sowie für die App QYSH (im Folgenden die App).",
+  "privacy-content": "Diese Datenschutzerklärung gilt für diese Website sowie für die App QYSH (im Folgenden die App).",
   "privacy-controller": "Verantwortlicher",
-  "privacy-data": "Die App – keine Datenerhebung",
-  "privacy-user-data": "Diese App sammelt keine Nutzerdaten. Alle Daten werden lokal auf Ihrem Gerät gespeichert.",
+  "privacy-data-title": "Die App – keine Datenerhebung",
+  "privacy-data-content": "Diese App sammelt keine Nutzerdaten. Alle Daten werden lokal auf Ihrem Gerät gespeichert.",
   "privacy-email-title": "Kontaktaufnahme per E-Mail",
   "privacy-email-content": "Wenn Sie uns per E-Mail kontaktieren (z. B. für Supportanfragen), werden Ihre E-Mail-Adresse sowie die in der Mail enthaltenen Daten von uns gespeichert, um Ihre Anfrage zu bearbeiten.",
   "privacy-email-legal-basis": "Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO oder Art. 6 Abs. 1 lit. f DSGVO",
