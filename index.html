@@ -36,14 +36,14 @@
 </nav>
 
 <section id="main">
-    <div class="badge">iOS · Watch OS · Android · Wear OS · <span data-i18n="widgets"></span></div>
+    <div class="badge-list">
+        <div class="badge">iOS</div>
+        <div class="badge" >Android</div>
+        <div class="badge" data-i18n="widgets"></div>
+    </div>
 
     <h1 data-i18n="main-title"></h1>
     <p data-i18n="main-app-description"></p>
-
-    <div class="spacing-block">
-        <a class="button" href="#download" data-i18n="download"></a>
-    </div>
 
     <div class="badge-list">
         <div class="badge" data-i18n="badge-countdown"></div>
@@ -52,18 +52,8 @@
         <div class="badge" data-i18n="integrations-title"></div>
     </div>
 
-    <div class="spacing-block image-container">
-        <div class="image" aria-label="Countdown">
-            <img src="images/iOSCountdown.png" alt="QYSH – Screenshot">
-        </div>
-
-        <div class="image" aria-label="Apple Watch Countdown">
-            <img src="images/WatchCountdown.png" alt="QYSH – Apple Watch Screenshot">
-        </div>
-
-        <div class="image" aria-label="Appel Watch Countdown">
-            <img src="images/WatchAdd.png" alt="QYSH – Apple Watch Screenshot">
-        </div>
+    <div class="spacing-block">
+        <a class="button" href="#download" data-i18n="download"></a>
     </div>
 </section>
 
@@ -71,34 +61,47 @@
     <h2 data-i18n="motivation-title"></h2>
     <p data-i18n="motivation-description"></p>
     <div class="card-list">
-        <div class="card">
-            <div class="icon">⏱️</div>
-            <h3 data-i18n="card-countdown-title"></h3>
-            <p class="body-text" data-i18n="card-countdown-description"></p>
+        <div class="card iconed">
+            <div class="card-content">
+                <div class="icon">⏱️</div>
+                <h3 data-i18n="card-countdown-title"></h3>
+                <p class="body-text" data-i18n="card-countdown-description"></p>
+                <img src="images/countdown.png" alt="" style="width: 70%;">
+            </div>
+            <div class="card-image">
+                <img src="images/counter.png" alt="">
+            </div>
+            
         </div>
-        <div class="card">
-            <div class="icon">📈</div>
-            <h3 data-i18n="card-statistic-title"></h3>
-            <p class="body-text" data-i18n="card-statistic-description"></p>
+        <div class="card iconed">
+            <div class="card-content">
+                <div class="icon">📈</div>
+                <h3 data-i18n="card-statistic-title"></h3>
+                <p class="body-text" data-i18n="card-statistic-description"></p>
+            </div>
+            <div class="card-image">
+                <img src="images/progress.png" alt="">
+            </div>
         </div>
-        <div class="card">
-            <div class="icon">🎯</div>
-            <h3 data-i18n="card-goals-title"></h3>
-            <p class="body-text" data-i18n="card-goals-description"></p>
+        <div class="card iconed">
+            <div class="card-content">
+                <div class="icon">🎯</div>
+                <h3 data-i18n="card-goals-title"></h3>
+                <p class="body-text" data-i18n="card-goals-description"></p>
+            </div>
+            <div class="card-image">
+                <img src="images/goals.png" alt="">
+            </div>
         </div>
-        <div class="card">
-            <div class="icon">🔔</div>
-            <h3 data-i18n="card-notifications-title"></h3>
-            <p class="body-text" data-i18n="card-notifications-description"></p>
-        </div>
-    </div>
-
-    <div class="spacing-block">
-        <div class="image" aria-label="Statistics">
-            <img src="images/iOSStatsMonth.png" alt="QYSH – Statistics Screenshot">
-        </div>
-        <div class="image" aria-label="Apple Watch Statistics">
-            <img src="images/iOSStatsYear.png" alt="QYSH – Statistics Screenshot">
+        <div class="card iconed">
+            <div class="card-content">
+                <div class="icon">🔔</div>
+                <h3 data-i18n="card-notifications-title"></h3>
+                <p class="body-text" data-i18n="card-notifications-description"></p>
+            </div>
+            <div class="card-image">
+                <img src="images/notifications.png" alt="">
+            </div>
         </div>
     </div>
 </section>

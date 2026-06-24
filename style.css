@@ -178,27 +178,33 @@ section {
     gap: 2rem;
 }
 
-.image {
-    display: flex;
-    justify-content: center;
-    
-    max-width: 300px;
-}
-
-.image img {
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: contain;
-
-    border-radius: 1rem;    
-    box-shadow: 0 10px 25px black;
-}
-
 .card {
     padding: 1.2rem;
     background: linear-gradient(180deg, rgba(15, 23, 42, .9), rgba(15, 23, 42, .7));
     border: 1px solid var(--dark-gray-color);
     border-radius: 1rem;
+}
+
+.card.iconed {
+    display: flex;
+    align-items: center;
+}
+
+.card-content {
+    flex: 0 0 55%;
+}
+
+.card-image {
+    flex: 0 0 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .icon {
