@@ -70,6 +70,10 @@
   "privacy-update-title": "Änderungen",
   "privacy-update-content": "Diese Richtlinie wird aktualisiert, sobald sich die Datenschutzpraktiken der App ändern oder der Website ändern.",
   "privacy-last-update": "Stand: 17.06.2026",
+  "privacy-bluetooth-title": "Bluetooth-Verbindung (optional)",
+  "privacy-bluetooth-content": "Wenn Sie Ihr IQOS-Gerät optional via Bluetooth mit der App verbinden, nutzen wir diese Schnittstelle ausschließlich, um Gerätedaten (z. B. Akkustand, MAC Adresse) auszulesen.",
+  "privacy-bluetooth-data": "Keine Serverübertragung: Alle Daten werden ausschließlich lokal auf Ihrem Smartphone verarbeitet. Es findet keine Übertragung an unsere Server oder Dritte statt.",
+  "privacy-bluetooth-legal-basis": "Rechtsgrundlage & Widerruf: Die Verarbeitung basiert auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), die Sie beim Erteilen der App-Berechtigung abgeben. Sie können diese Berechtigung jederzeit in den Systemeinstellungen Ihres Smartphones widerrufen.",
 
   "download-title": "Bereit, den ersten Schritt zu machen?",
   "download-description": "Lade QYSH herunter und starte heute mit deinem persönlichen Plan.",

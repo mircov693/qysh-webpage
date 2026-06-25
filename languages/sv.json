@@ -70,6 +70,10 @@
   "privacy-update-title": "Ändringar",
   "privacy-update-content": "Denna policy kommer att uppdateras så snart dataskyddspraxis för appen eller webbplatsen ändras.",
   "privacy-last-update": "Aktuell per den: 17 juni 2026",
+  "privacy-bluetooth-title": "Bluetooth-anslutning (valfritt)",
+  "privacy-bluetooth-content": "Om du väljer att ansluta din IQOS-enhet via Bluetooth använder vi detta gränssnitt uteslutande för att läsa av enhetsdata (t.ex. batteristatus, MAC-adress).",
+  "privacy-bluetooth-data": "Ingen serveröverföring: Alla data behandlas uteslutande lokalt på din smartphone. Inga data överförs till våra servrar eller till tredje part.",
+  "privacy-bluetooth-legal-basis": "Rättslig grund och återkallelse: Behandlingen baseras på ditt samtycke Art. 6 (1) (a) GDPR (Art. 6 Abs. 1 lit. a DSGVO) som getts via app-behörigheten. Du kan när som helst återkalla denna behörighet i systeminställningarna på din smartphone.",
 
   "download-title": "Redo att ta första steget?",
   "download-description": "Ladda ner QYSH och starta din personliga plan redan idag.",

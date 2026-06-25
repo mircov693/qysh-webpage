@@ -70,6 +70,10 @@
   "privacy-update-title": "Zmeny",
   "privacy-update-content": "Tieto zásady budú aktualizované, hneď ako sa zmenia postupy ochrany osobných údajov v aplikácii alebo na webovej stránke.",
   "privacy-last-update": "Stav k: 17. 06. 2026",
+  "privacy-bluetooth-title": "Bluetooth pripojenie (voliteľné)",
+  "privacy-bluetooth-content": "Ak sa rozhodnete pripojiť svoje zariadenie IQOS cez Bluetooth, toto rozhranie používame výhradne na čítanie údajov o zariadení (napr. stav batérie, MAC adresa).",
+  "privacy-bluetooth-data": "Žiadny prenos na server: Všetky údaje sa spracúvajú výhradne lokálne vo vašom smartfóne. Žiadne údaje sa neprenášajú na naše servery ani tretím stranám.",
+  "privacy-bluetooth-legal-basis": "Právny základ a odvolanie súhlasu: Spracovanie je založené na vašom súhlase Art. 6 (1) (a) GDPR (Art. 6 Abs. 1 lit. a DSGVO) udelenom prostredníctvom povolenia aplikácie. Toto povolenie môžete kedykoľvek odvolať v systémových nastaveniach vášho smartfónu.",
 
   "download-title": "Pripravený urobiť prvý krok?",
   "download-description": "Stiahni si QYSH a začni svoj osobný plán ešte dnes.",

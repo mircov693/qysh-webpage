@@ -70,6 +70,10 @@
   "privacy-update-title": "Alterações",
   "privacy-update-content": "Esta política será atualizada assim que as práticas de proteção de dados da aplicação ou do website mudarem.",
   "privacy-last-update": "Atualizado em: 17.06.2026",
+  "privacy-bluetooth-title": "Conexão Bluetooth (opcional)",
+  "privacy-bluetooth-content": "Se optar por conectar o seu dispositivo IQOS via Bluetooth, utilizaremos esta interface exclusivamente para ler os dados do dispositivo (por ex., o estado da bateria, o endereço MAC).",
+  "privacy-bluetooth-data": "Sem transmissão para o servidor: Todos os dados são processados exclusivamente de forma local no seu smartphone. Nenhum dado é transmitido para os nossos servidores ou para terceiros.",
+  "privacy-bluetooth-legal-basis": "Base legal e revogação: O processamento baseia-se no seu consentimento Art. 6 (1) (a) GDPR (Art. 6 Abs. 1 lit. a DSGVO) concedido através da permissão da aplicação. Pode revogar esta permissão a qualquer momento nas definições de sistema do seu smartphone.",
 
   "download-title": "Pronto para dar o primeiro passo?",
   "download-description": "Descarrega o QYSH e começa hoje o teu plano pessoal.",

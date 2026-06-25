@@ -70,6 +70,10 @@
   "privacy-update-title": "Değişiklikler",
   "privacy-update-content": "Bu politika, uygulamanın veya web sitesinin veri koruma uygulamaları değişir değişmez güncellenecektir.",
   "privacy-last-update": "Son Güncelleme: 17.06.2026",
+  "privacy-bluetooth-title": "Bluetooth Bağlantısı (isteğe bağlı)",
+  "privacy-bluetooth-content": "IQOS cihazınızı Bluetooth üzerinden bağlamayı seçerseniz, bu arayüzü yalnızca cihaz verilerini (örn. pil durumu, MAC adresi) okumak için kullanırız.",
+  "privacy-bluetooth-data": "Sunucuya Veri Aktarımı Yok: Tüm veriler yalnızca akıllı telefonunuzda yerel olarak işlenir. Sunucularımıza veya üçüncü taraflara hiçbir veri aktarılmaz.",
+  "privacy-bluetooth-legal-basis": "Yasal Dayanak ve İptal: Veri işleme işlemi, uygulama izni aracılığıyla verdiğiniz rızanıza Art. 6 (1) (a) GDPR (Art. 6 Abs. 1 lit. a DSGVO) dayanmaktadır. Bu izni akıllı telefonunuzun sistem ayarlarından istediğiniz zaman iptal edebilirsiniz.",
 
   "download-title": "İlk adımı atmaya hazır mısın?",
   "download-description": "QYSH’i indir ve kişisel planına bugün başla.",

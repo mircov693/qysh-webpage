@@ -70,6 +70,10 @@
   "privacy-update-title": "Módosítások",
   "privacy-update-content": "Ez a tájékoztató frissítésre kerül, amint az alkalmazás vagy a weboldal adatvédelmi gyakorlata megváltozik.",
   "privacy-last-update": "Frissítve: 2026. 06. 17.",
+  "privacy-bluetooth-title": "Bluetooth-kapcsolat (opcionális)",
+  "privacy-bluetooth-content": "Amennyiben opcionálisan Bluetooth-on keresztül csatlakoztatja IQOS készülékét, ezt az interfészt kizárólag a készülékadatok (pl. akkumulátor állapota, MAC-cím) leolvasására használjuk.",
+  "privacy-bluetooth-data": "Nincs szerverre történő adattovábbítás: Minden adatot kizárólag helyileg dolgozunk fel az Ön okostelefonján. Semmilyen adatot nem továbbítunk a szervereinkre vagy harmadik feleknek.",
+  "privacy-bluetooth-legal-basis": "Jogalap és visszavonás: Az adatkezelés az Ön hozzájárulásán alapul Art. 6 (1) (a) GDPR (Art. 6 Abs. 1 lit. a DSGVO), amelyet az alkalmazásengedélyen keresztül adott meg. Ezt az engedélyt bármikor visszavonhatja okostelefonja rendszerbeállításaiban.",
 
   "download-title": "Készen állsz az első lépésre?",
   "download-description": "Töltsd le a QYSH‑et, és kezdd el még ma a saját tervedet.",
