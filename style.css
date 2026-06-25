@@ -45,6 +45,7 @@ body {
 .navbar .menu {
     display: flex;
     list-style-type: none;
+    align-items: center;
     gap: 10px;
 }
 
@@ -57,6 +58,20 @@ body {
 .navbar .menu a:hover {
     color: var(--cyan-color);
     transform: scale(1.1);
+}
+
+.navbar .menu a.button:hover,
+.navbar .nav-download:hover {
+    color: inherit;
+}
+
+.navbar .nav-download {
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.navbar .menu-download {
+    display: none;
 }
 
 .navbar .burger-menu {
@@ -131,10 +146,15 @@ section {
         width: 100%;
         align-items: center;
         padding: 1rem 0;
+        order: 4;
     }
 
     .navbar .menu.open {
         display: flex;
+    }
+
+    .navbar .menu-download {
+        display: inline-flex;
     }
 
     .navbar .burger-menu {
@@ -231,10 +251,11 @@ section {
 
 .button {
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
     background: var(--button-color);
-    border-radius: 1rem;
-    padding: 1rem;
-    box-shadow: 0 8px 18px var(--button-shadow-color);
+    border-radius: .5rem;
+    padding: .5rem;
     font-weight: 700;
     letter-spacing: .02rem;
 }
