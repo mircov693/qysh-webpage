@@ -87,6 +87,17 @@ section {
     margin: 1rem 3rem;
 }
 
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 3rem;
+    a {
+        color: var(--button-color);
+        font-size: .8rem;
+        margin: .3rem 0rem;
+    } 
+}
+
 @media (max-width: 750px) {
     .card-list {
         grid-template-columns: 1fr;
@@ -110,6 +121,10 @@ section {
     }
 
     .footer {
+        margin: 1rem 1rem;
+    }
+
+    .footer-links {
         margin: 1rem 1rem;
     }
 }
