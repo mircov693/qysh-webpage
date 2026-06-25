@@ -1,25 +1,3 @@
-function showHideMenu() {
-    const menu = document.getElementById("menu");
-    const isOpen = menu.classList.toggle("open");
-    const burgerMenu = document.querySelector('.burger-menu')
-    burgerMenu.setAttribute('aria-expanded', isOpen.toString());
-    burgerMenu.classList.toggle("open"); 
-}
-
-function closeMenu() {
-    const menu = document.getElementById("menu");
-    const burgerMenu = document.querySelector('.burger-menu');
-    menu.classList.remove("open");
-    burgerMenu.classList.remove("open");
-    burgerMenu.setAttribute('aria-expanded', 'false');
-}
-
-document.querySelector('.burger-menu').addEventListener('click', showHideMenu);
-
-document.querySelectorAll('.menu a').forEach(link => {
-    link.addEventListener('click', closeMenu);
-});
-
 document.getElementById("year").textContent = new Date().getFullYear().toString()
 
 function updateContent(langData) {
