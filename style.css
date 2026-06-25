@@ -91,6 +91,13 @@ body {
     gap: 1rem;
 }
 
+.card-list > .card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: calc((100% - 1rem) / 2);
+    box-sizing: border-box;
+}
+
 section {
     padding: 3rem;
 }
@@ -136,6 +143,10 @@ section {
 
     .card-list {
         grid-template-columns: 1fr;
+    }
+
+    .card-list > .card:last-child:nth-child(odd) {
+        width: 100%;
     }
 
     section {
