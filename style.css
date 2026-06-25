@@ -271,12 +271,12 @@ a {
 }
 
 select {
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 #languages {
     background: none;
-    border: none;
+    border-color: gray;
     color: var(--primary-text-color);
 }
 
