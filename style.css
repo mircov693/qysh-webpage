@@ -191,11 +191,11 @@ section {
 }
 
 .card-content {
-    flex: 0 0 55%;
+    flex: 0 0 60%;
 }
 
 .card-image {
-    flex: 0 0 45%;
+    flex: 0 0 40%;
     display: flex;
     justify-content: center;
     align-items: center;
