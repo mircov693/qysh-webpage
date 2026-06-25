@@ -74,6 +74,9 @@
   "privacy-bluetooth-content": "Ak sa rozhodnete pripojiť svoje zariadenie IQOS cez Bluetooth, toto rozhranie používame výhradne na čítanie údajov o zariadení (napr. stav batérie, MAC adresa).",
   "privacy-bluetooth-data": "Žiadny prenos na server: Všetky údaje sa spracúvajú výhradne lokálne vo vašom smartfóne. Žiadne údaje sa neprenášajú na naše servery ani tretím stranám.",
   "privacy-bluetooth-legal-basis": "Právny základ a odvolanie súhlasu: Spracovanie je založené na vašom súhlase Art. 6 (1) (a) GDPR (Art. 6 Abs. 1 lit. a DSGVO) udelenom prostredníctvom povolenia aplikácie. Toto povolenie môžete kedykoľvek odvolať v systémových nastaveniach vášho smartfónu.",
+  "privacy-storage-duration-title": "Doba uchovávania a mazanie údajov",
+  "privacy-storage-duration-content": "Riadime sa zásadou minimalizácie údajov a špecificky navrhnutej ochrany údajov (Privacy by Design). Vzhľadom na to, že všetky vaše záznamy a údaje o používaní (ako sú zaznamenané fajčiarske pauzy vrátane časových pečiatok a nákladov, osobné nastavenia aplikácie a pripojené zariadenia) sa ukladajú výhradne lokálne v zabezpečenej sandbox databáze vo vašom vlastnom smartfóne, nemáme k týmto údajom v žiadnom okamihu prístup.",
+  "privacy-storage-duration-criteria": "Údaje zostávajú vo vašom koncovom zariadení po celú dobu, počas ktorej aplikáciu používate. Nad dobou uchovávania máte plnú kontrolu: jednotlivé záznamy alebo nastavenia môžete kedykoľvek vymazať priamo v aplikácii. Úplným odinštalovaním aplikácie zo smartfónu sa automaticky a nevratne vymažú všetky lokálne uložené dáta z vášho zariadenia. Z našej strany nedochádza k žiadnej archivácii ani zálohovaniu na strane servera.",
 
   "download-title": "Pripravený urobiť prvý krok?",
   "download-description": "Stiahni si QYSH a začni svoj osobný plán ešte dnes.",

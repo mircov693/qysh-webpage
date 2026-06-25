@@ -74,6 +74,9 @@
   "privacy-bluetooth-content": "Amennyiben opcionálisan Bluetooth-on keresztül csatlakoztatja IQOS készülékét, ezt az interfészt kizárólag a készülékadatok (pl. akkumulátor állapota, MAC-cím) leolvasására használjuk.",
   "privacy-bluetooth-data": "Nincs szerverre történő adattovábbítás: Minden adatot kizárólag helyileg dolgozunk fel az Ön okostelefonján. Semmilyen adatot nem továbbítunk a szervereinkre vagy harmadik feleknek.",
   "privacy-bluetooth-legal-basis": "Jogalap és visszavonás: Az adatkezelés az Ön hozzájárulásán alapul Art. 6 (1) (a) GDPR (Art. 6 Abs. 1 lit. a DSGVO), amelyet az alkalmazásengedélyen keresztül adott meg. Ezt az engedélyt bármikor visszavonhatja okostelefonja rendszerbeállításaiban.",
+  "privacy-storage-duration-title": "Adattárolás időtartama és az adatok törlése",
+  "privacy-storage-duration-content": "Az adattakarékosság és a beépített adatvédelem (Privacy by Design) elvét követjük. Mivel az Ön összes bevitele és használati adata (mint például a rögzített dohányzási alkalmak időbélyeggel és költségekkel, a személyes alkalmazásbeállítások, valamint a csatlakoztatott eszközök) kizárólag helyileg, a saját okostelefonján lévő biztonságos sandbox adatbázisban tárolódik, nekünk egyetlen pillanatban sincs hozzáférésünk ezekhez az adatokhoz.",
+  "privacy-storage-duration-criteria": "Az adatok mindaddig az Ön készülékén maradnak, amíg az alkalmazást használja. A tárolási időtartam felett Ön teljes körű ellenőrzéssel rendelkezik: az egyes bejegyzéseket vagy beállításokat bármikor törölheti közvetlenül az alkalmazásban. Az alkalmazás teljes eltávolításával (deinstallálásával) az okostelefonról az összes helyileg tárolt adat automatikusan és visszavonhatatlanul törlődik a készülékéről. Részünkről semmilyen szerveroldali archiválás vagy biztonsági mentés (backup) nem történik.",
 
   "download-title": "Készen állsz az első lépésre?",
   "download-description": "Töltsd le a QYSH‑et, és kezdd el még ma a saját tervedet.",

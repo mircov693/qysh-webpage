@@ -74,6 +74,9 @@
   "privacy-bluetooth-content": "Hvis du vælger at forbinde din IQOS-enhed via Bluetooth, bruger vi udelukkende denne grænseflade til at læse enhedsdata (f.eks. batteristatus, MAC-adresse).",
   "privacy-bluetooth-data": "Ingen serveroverførsel: Alle data behandles udelukkende lokalt på din smartphone. Der overføres ingen data til vores servere eller tredjeparter.",
   "privacy-bluetooth-legal-basis": "Retsgrundlag og tilbagekaldelse: Behandlingen er baseret på dit samtykke Art. 6 (1) (a) GDPR (Art. 6 Abs. 1 lit. a DSGVO) givet via app-tilladelsen. Du kan til enhver tid tilbagekalde denne tilladelse i systemindstillingerne på din smartphone.",
+  "privacy-storage-duration-title": "Opbevaringsperiode og sletning af data",
+  "privacy-storage-duration-content": "Vi følger princippet om dataminimering og indbygget databeskyttelse (Privacy by Design). Da alle dine indtastninger og brugsdata (som f.eks. registrerede rygesessioner inklusive tidsstempler og omkostninger, personlige app-indstillinger samt tilsluttede enheder) udelukkende gemmes lokalt i en sikker sandbox-database på din egen smartphone, har vi på intet tidspunkt adgang til disse data.",
+  "privacy-storage-duration-criteria": "Dataene forbliver på din enhed, så længe du bruger appen. Du har fuld kontrol over opbevaringsperioden: du kan til enhver tid slette enkelte indtastninger eller indstillinger direkte i appen. Hvis du afinstallerer appen helt fra din smartphone, slettes alle lokalt gemte data automatisk og uigenkaldeligt fra din enhed. Vi foretager ingen server-side arkivering eller backup.",
 
   "download-title": "Klar til at tage det første skridt?",
   "download-description": "Download QYSH og start din personlige plan allerede i dag.",

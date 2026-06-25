@@ -74,6 +74,9 @@
   "privacy-bluetooth-content": "If you optionally connect your IQOS device via Bluetooth, we use this interface solely to read device data (e.g., battery status, MAC address).",
   "privacy-bluetooth-data": "No Server Transmission: All data is processed exclusively locally on your smartphone. No data is transmitted to our servers or third parties.",
   "privacy-bluetooth-legal-basis": "Legal Basis & Revocation: Processing is based on your consent Art. 6 (1) (a) GDPR (Art. 6 Abs. 1 lit. a DSGVO) granted via the app permission. You can revoke this permission at any time in your smartphone's system settings.",
+  "privacy-storage-duration-title": "Data Retention and Deletion",
+  "privacy-storage-duration-content": "We follow a strict 'Privacy by Design' approach. Since all your entries and usage data (such as logged smoking sessions including timestamps and costs, personal app settings, and connected devices) are stored exclusively local within the app's secure sandbox database on your own smartphone, we never have access to this data.",
+  "privacy-storage-duration-criteria": "The data remains on your device for as long as you use the app. You have full control over the retention period: you can delete individual entries or reset settings at any time directly within the app. Uninstalling the app from your smartphone will automatically and permanently delete all locally stored data from your device. No server-side archiving or backup storage is performed by us.",
 
   "download-title": "Ready to take the first step?",
   "download-description": "Download QYSH and start your personal plan today.",

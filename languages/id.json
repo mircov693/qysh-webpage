@@ -74,6 +74,9 @@
   "privacy-bluetooth-content": "Jika Anda memilih untuk menghubungkan perangkat IQOS Anda melalui Bluetooth, kami menggunakan antarmuka ini semata-mata untuk membaca data perangkat (misalnya status baterai, alamat MAC).",
   "privacy-bluetooth-data": "Tanpa Transmisi Server: Semua data diproses secara eksklusif secara lokal di ponsel pintar Anda. Tidak ada data yang ditransmisikan ke server kami atau pihak ketiga.",
   "privacy-bluetooth-legal-basis": "Dasar Hukum & Pencabutan: Pemrosesan didasarkan pada persetujuan Anda Art. 6 (1) (a) GDPR (Art. 6 Abs. 1 lit. a DSGVO) yang diberikan melalui izin aplikasi. Anda dapat mencabut izin ini kapan saja di pengaturan sistem ponsel pintar Anda.",
+  "privacy-storage-duration-title": "Masa Penyimpanan dan Penghapusan Data",
+  "privacy-storage-duration-content": "Kami menerapkan prinsip minimisasi data dan perlindungan data sejak perancangan (Privacy by Design). Karena semua data masukan dan penggunaan Anda (seperti riwayat sesi merokok termasuk stempel waktu dan biaya, pengaturan pribadi aplikasi, serta perangkat yang terhubung) disimpan secara eksklusif dan lokal di dalam basis data sandbox yang aman di ponsel pintar Anda sendiri, kami tidak memiliki akses ke data tersebut kapan pun.",
+  "privacy-storage-duration-criteria": "Data akan tetap berada di perangkat Anda selama Anda menggunakan aplikasi ini. Anda memiliki kendali penuh atas masa penyimpanan data: Anda dapat menghapus riwayat data atau pengaturan tertentu kapan saja langsung di dalam aplikasi. Dengan menghapus (uninstall) aplikasi sepenuhnya dari ponsel pintar Anda, semua data yang disimpan secara lokal akan terhapus secara otomatis dan permanen dari perangkat Anda. Kami tidak melakukan pengarsipan atau pencadangan (backup) apa pun di sisi server.",
 
   "download-title": "Siap mengambil langkah pertama?",
   "download-description": "Unduh QYSH dan mulai rencana pribadi Anda hari ini.",

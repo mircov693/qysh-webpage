@@ -74,6 +74,9 @@
   "privacy-bluetooth-content": "IQOS cihazınızı Bluetooth üzerinden bağlamayı seçerseniz, bu arayüzü yalnızca cihaz verilerini (örn. pil durumu, MAC adresi) okumak için kullanırız.",
   "privacy-bluetooth-data": "Sunucuya Veri Aktarımı Yok: Tüm veriler yalnızca akıllı telefonunuzda yerel olarak işlenir. Sunucularımıza veya üçüncü taraflara hiçbir veri aktarılmaz.",
   "privacy-bluetooth-legal-basis": "Yasal Dayanak ve İptal: Veri işleme işlemi, uygulama izni aracılığıyla verdiğiniz rızanıza Art. 6 (1) (a) GDPR (Art. 6 Abs. 1 lit. a DSGVO) dayanmaktadır. Bu izni akıllı telefonunuzun sistem ayarlarından istediğiniz zaman iptal edebilirsiniz.",
+  "privacy-storage-duration-title": "Veri Saklama Süresi ve Verilerin Silinmesi",
+  "privacy-storage-duration-content": "Veri minimizasyonu ve tasarım yoluyla veri koruma (Privacy by Design) ilkelerini benimsiyoruz. Girdiğiniz tüm bilgiler ve kullanım verileriniz (örneğin zaman damgaları ve maliyetleri dahil olmak üzere kaydedilen sigara içme seansları, kişisel uygulama ayarları ve bağlı cihazlar) tamamen yerel olarak, kendi akıllı telefonunuzdaki güvenli bir sandbox veri tabanında saklandığından, bu verilere hiçbir şekilde erişimimiz yoktur.",
+  "privacy-storage-duration-criteria": "Veriler, uygulamayı kullandığınız sürece cihazınızda kalır. Saklama süresi üzerinde tam kontrole sahipsiniz: İstediğiniz zaman uygulama içinden belirli kayıtları veya ayarları doğrudan silebilirsiniz. Uygulamayı akıllı telefonunuzdan tamamen kaldırdığınızda (uninstalled), yerel olarak saklanan tüm veriler cihazınızdan otomatik ve geri alınamaz bir şekilde silinir. Tarafımızca sunucu tarafında (server-side) herhangi bir arşivleme veya yedekleme (backup) işlemi yapılmamaktadır.",
 
   "download-title": "İlk adımı atmaya hazır mısın?",
   "download-description": "QYSH’i indir ve kişisel planına bugün başla.",
