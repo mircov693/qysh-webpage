@@ -29,6 +29,14 @@ function setLanguagePreference(lang) {
     localStorage.setItem('language', lang);
 }
 
+function getSupportedLanguage(lang) {
+    return isLanguageSupported(lang) ? lang : null;
+}
+
+function updateDocumentLanguage(lang) {
+    document.documentElement.lang = lang;
+}
+
 async function fetchLanguageData(lang) {
     const response = await fetch(new URL(`languages/${lang}.json`, SCRIPT_BASE_URL));
     return response.json();
@@ -53,7 +61,13 @@ async function fetchDisclamerEn(lang) {
 }
 
 async function changeLanguage(lang) {
+    if (!isLanguageSupported(lang)) {
+        return;
+    }
+
     setLanguagePreference(lang);
+    updateDocumentLanguage(lang);
+
     const langData = await fetchLanguageData(lang);
     updateContent(langData);
     updateBadges(lang);
@@ -103,17 +117,16 @@ function isLanguageSupported(lang) {
 
 window.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
-    let queryLanguage = urlParams.get('lang') || 'en';
-    
-    if (!isLanguageSupported(queryLanguage)) {
-        queryLanguage = 'en';
-    }
-    let userPreferredLanguage = localStorage.getItem('language') || queryLanguage;
+    const queryLanguage = getSupportedLanguage(urlParams.get('lang'));
+    const savedLanguage = getSupportedLanguage(localStorage.getItem('language'));
+    const userPreferredLanguage = queryLanguage || savedLanguage || 'en';
 
-    if (!isLanguageSupported(userPreferredLanguage)) {
+    if (!savedLanguage) {
         localStorage.removeItem('language');
-        userPreferredLanguage = 'en';
     }
+
+    setLanguagePreference(userPreferredLanguage);
+    updateDocumentLanguage(userPreferredLanguage);
 
     const languageSelect = document.getElementById('languages');
 
