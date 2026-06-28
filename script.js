@@ -8,7 +8,10 @@ if (yearElement) {
 function updateContent(langData) {
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
-        element.innerHTML = langData[key];
+
+        if (Object.prototype.hasOwnProperty.call(langData, key)) {
+            element.innerHTML = langData[key];
+        }
     });
 }
 
@@ -42,7 +45,7 @@ async function fetchLanguageData(lang) {
     return response.json();
 }
 
-async function fetchDisclamerEn(lang) {
+async function fetchDisclaimerEn(lang) {
     const container = document.getElementById('iqos-disclaimer-en-container');
     const disclaimer = document.getElementById('iqos-disclaimer-en');
 
@@ -60,18 +63,22 @@ async function fetchDisclamerEn(lang) {
     }
 }
 
-async function changeLanguage(lang) {
-    if (!isLanguageSupported(lang)) {
-        return;
-    }
-
+async function applyLanguage(lang) {
     setLanguagePreference(lang);
     updateDocumentLanguage(lang);
 
     const langData = await fetchLanguageData(lang);
     updateContent(langData);
     updateBadges(lang);
-    fetchDisclamerEn(lang);
+    await fetchDisclaimerEn(lang);
+}
+
+async function changeLanguage(lang) {
+    if (!isLanguageSupported(lang)) {
+        return;
+    }
+
+    await applyLanguage(lang);
 }
 
 function scrollToHashFragment() {
@@ -125,17 +132,11 @@ window.addEventListener('DOMContentLoaded', async () => {
         localStorage.removeItem('language');
     }
 
-    setLanguagePreference(userPreferredLanguage);
-    updateDocumentLanguage(userPreferredLanguage);
-
     const languageSelect = document.getElementById('languages');
 
     if (languageSelect) {
         languageSelect.value = userPreferredLanguage;
     }
 
-    const langData = await fetchLanguageData(userPreferredLanguage);
-    updateContent(langData);
-    updateBadges(userPreferredLanguage);
-    fetchDisclamerEn(userPreferredLanguage);
+    await applyLanguage(userPreferredLanguage);
 });
