@@ -116,7 +116,7 @@ window.addEventListener('load', () => {
     });
 });
 
-const SUPPORTED_LANGUAGES = ['bg', 'cs', 'da', 'de', 'el', 'es', 'en', 'fr', 'hu', 'id', 'it', 'nl', 'pl', 'pt', 'ro', 'ru', 'sk', 'sv', 'tr', 'uk'];
+const SUPPORTED_LANGUAGES = ['de', 'en', 'ru'];
 
 function isLanguageSupported(lang) {
     return SUPPORTED_LANGUAGES.includes(lang);
