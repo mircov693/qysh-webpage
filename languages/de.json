@@ -122,6 +122,8 @@
   "legal-notice": "Impressum",
   "disclaimers": "Haftungsausschlüsse",
   "terms-of-use": "Nutzungsbedingungen",
+  "legal-dispute-title": "Streitschlichtung",
+  "legal-dispute-content": "Wir sind nicht verpflichtet und nicht bereit, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
   "iqos-disclaimer": "IQOS ist eine Marke von Philip Morris Products S.A. Vladimir Cabacov (mircov) ist weder mit Philip Morris Products S.A. verbunden noch deren Vertreter oder Bevollmächtigter, und die Produkte von Vladimir Cabacov (mircov) werden von Philip Morris Products S.A. weder unterstützt, genehmigt, getestet noch überprüft. Die gesamte Haftung für diese Produkte liegt bei Vladimir Cabacov (mircov) als Produkthersteller.",
   "medical-disclaimer": "Die QYSH-App ist ein Motivations- und Tracking-Werkzeug zur Unterstützung der persönlichen Gewohnheitsbildung. Die App bietet keine medizinische, therapeutische oder psychologische Beratung, Diagnose oder Behandlung. Sie ist kein Ersatz für eine professionelle medizinische Beratung oder Suchtberatung. Die Nutzung der App erfolgt auf eigene Verantwortung.",
 
@@ -143,6 +145,8 @@
   "terms-purchases-content": "Die Nutzung der App setzt ein kostenpflichtiges Abonnement voraus. Sie können zwischen einem monatlichen Abonnement, einem jährlichen Abonnement oder einem einmaligen Lifetime-Kauf wählen, der einen dauerhaften Zugang gewährt. Alle Käufe werden ausschließlich über den Apple App Store bzw. Google Play abgerechnet und abgewickelt; es gelten die jeweiligen Verkaufs-, Zahlungs-, Kündigungs- und Erstattungsbedingungen dieser Anbieter. Monatliche und jährliche Abonnements verlängern sich automatisch um die jeweils gleiche Laufzeit, sofern sie nicht gemäß den Richtlinien des jeweiligen Stores vor Ablauf der aktuellen Abrechnungsperiode gekündigt werden. Die Lifetime-Option ist eine einmalige Zahlung, die sich nicht verlängert und nicht abläuft. Erstattungen werden ausschließlich von Apple oder Google gemäß deren eigenen Richtlinien bearbeitet; Vladimir Cabacov (mircov) hat keinen Zugriff auf Ihre Zahlungsdaten und kann Erstattungen nicht selbst vornehmen. Die aktuellen Preise werden vor dem Kauf in der App und im jeweiligen App Store angezeigt und können je nach Region variieren.",
   "terms-trial-content": "Für monatliche und jährliche Abonnements kann eine kostenlose Testphase von 7 Tagen angeboten werden. Wenn Sie nicht vor Ablauf der Testphase kündigen, wandelt sich das Abonnement automatisch in ein kostenpflichtiges Abonnement um, und der jeweils geltende Preis wird über Ihr Apple-ID- oder Google-Play-Konto abgebucht. Sie können während der Testphase jederzeit in Ihren Apple-ID- bzw. Google-Play-Kontoeinstellungen kündigen, um eine Abbuchung zu vermeiden. Die Berechtigung zur Testphase sowie die genauen Angebotsbedingungen unterliegen den jeweiligen Richtlinien von Apple und Google.",
   "terms-purchases-links": "Für den Kauf und die Abrechnung von Abonnements gelten zusätzlich die eigenen Bedingungen des jeweiligen Stores:",
+  "terms-withdrawal-title": "Widerrufsrecht",
+  "terms-withdrawal-content": "Ihr Kauf eines Abonnements oder des Lifetime-Zugangs erfolgt über und wird abgerechnet von Apple (Apple Distribution International Ltd.) bzw. Google (Google Commerce Ltd. / Google Ireland Ltd.), die in den meisten Rechtsordnungen als Verkäufer des jeweiligen Kaufvorgangs auftreten. Ein etwaiges gesetzliches Widerrufsrecht für Online-Käufe digitaler Inhalte sowie dessen Ausschluss oder vorzeitiges Erlöschen bei Beginn der Ausführung richtet sich daher nach den eigenen Verkaufsbedingungen von Apple bzw. Google, auf die oben verwiesen wird, und nicht nach den Bedingungen von Vladimir Cabacov (mircov).",
   "terms-third-party-title": "Geräte Dritter und Marken",
   "terms-third-party-content": "Die App bietet eine optionale Bluetooth-Verbindung zu kompatiblen IQOS-Geräten. Sie sind selbst dafür verantwortlich, dass Ihr Gerät kompatibel ist und gemäß den Anweisungen des Herstellers verwendet wird.",
   "terms-disclaimer-title": "Kein medizinischer Rat; Haftungsausschluss",
@@ -157,6 +161,8 @@
   "terms-changes-content": "Diese Bedingungen können von Zeit zu Zeit aktualisiert werden, um Änderungen der App oder rechtlicher Anforderungen widerzuspiegeln. Die aktuelle Fassung ist stets auf dieser Seite abrufbar. Die fortgesetzte Nutzung der App nach einer Aktualisierung gilt als Zustimmung zu den geänderten Bedingungen.",
   "terms-law-title": "Anwendbares Recht und Gerichtsstand",
   "terms-law-content": "Diese Bedingungen unterliegen dem Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts. Zwingende verbraucherschützende Bestimmungen des Staates, in dem Sie Ihren gewöhnlichen Aufenthalt haben, bleiben unberührt. Soweit gesetzlich zulässig, ist Gerichtsstand Düsseldorf, Deutschland.",
+  "terms-severability-title": "Salvatorische Klausel",
+  "terms-severability-content": "Sollte eine Bestimmung dieser Bedingungen unwirksam sein oder werden, bleibt die Wirksamkeit der übrigen Bestimmungen hiervon unberührt.",
   "terms-contact-title": "Kontakt",
   "terms-contact-content": "Bei Fragen zu diesen Bedingungen kontaktieren Sie uns bitte:",
   "terms-last-update": "Stand: 04.07.2026"

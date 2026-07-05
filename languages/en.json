@@ -122,6 +122,8 @@
   "legal-notice": "Legal Notice",
   "disclaimers": "Disclaimers",
   "terms-of-use": "Terms of Use",
+  "legal-dispute-title": "Dispute Resolution",
+  "legal-dispute-content": "We are not obligated and not willing to participate in dispute resolution proceedings before a consumer arbitration board (Verbraucherschlichtungsstelle).",
   "iqos-disclaimer": "IQOS is a trademark belonging to Philip Morris Products S.A. Vladimir Cabacov (mircov) is not affiliated with, representative for, or agents of, Philip Morris Products S.A. and Vladimir Cabacov (mircov)'s products are not endorsed, reviewed, tested, or supported by Philip Morris Products S.A. All liability for such products remains with Vladimir Cabacov (mircov) as product manufacturer.",
   "medical-disclaimer": "The QYSH app is a motivational and tracking tool designed to support personal habit building. The app does not provide medical, therapeutic, or psychological advice, diagnosis, or treatment. It is not a substitute for professional medical advice or addiction counselling. Use of the app is at your own risk.",
 
@@ -143,6 +145,8 @@
   "terms-purchases-content": "Access to the app requires a paid subscription. You can choose between a monthly subscription, an annual subscription, or a one-time lifetime purchase that grants permanent access. All purchases are billed and processed exclusively through the Apple App Store or Google Play, and their respective terms of sale, payment, cancellation, and refund policies apply. Monthly and annual subscriptions renew automatically for the same period unless cancelled in accordance with the respective store's policies before the end of the current billing period. The lifetime option is a one-time payment that does not renew or expire. Refunds are handled solely by Apple or Google in accordance with their own policies; Vladimir Cabacov (mircov) has no access to your payment data and cannot process refunds directly. Current prices are displayed in the app and in the respective app store before purchase and may vary by region.",
   "terms-trial-content": "Monthly and annual subscriptions may be offered with an introductory free trial of 7 days. If you do not cancel before the trial period ends, the subscription automatically converts into a paid subscription and the applicable price is charged to your Apple ID or Google Play account. You can cancel at any time during the trial in your Apple ID or Google Play account settings to avoid being charged. Trial eligibility and the exact offer terms are subject to Apple's and Google's respective policies.",
   "terms-purchases-links": "The purchase and billing of subscriptions is additionally governed by the respective store's own terms:",
+  "terms-withdrawal-title": "Right of Withdrawal",
+  "terms-withdrawal-content": "Your purchase of a subscription or lifetime access is made through and billed by Apple (Apple Distribution International Ltd.) or Google (Google Commerce Ltd. / Google Ireland Ltd.), who act as the seller of record for the transaction in most jurisdictions. Any statutory right of withdrawal for online purchases of digital content, and its exclusion or early expiry once performance has begun, is therefore governed by Apple's and Google's own terms of sale referenced above, not by Vladimir Cabacov (mircov).",
   "terms-third-party-title": "Third-Party Devices and Trademarks",
   "terms-third-party-content": "The app offers an optional Bluetooth connection to compatible IQOS devices. You are responsible for ensuring your device is compatible and used in accordance with the manufacturer's instructions.",
   "terms-disclaimer-title": "No Medical Advice; Disclaimer",
@@ -157,6 +161,8 @@
   "terms-changes-content": "These Terms may be updated from time to time to reflect changes to the app or legal requirements. The current version is always available on this page. Continued use of the app after an update constitutes acceptance of the revised Terms.",
   "terms-law-title": "Governing Law and Jurisdiction",
   "terms-law-content": "These Terms are governed by the laws of the Federal Republic of Germany, excluding the UN Convention on Contracts for the International Sale of Goods. Mandatory consumer protection provisions of the country in which you have your habitual residence remain unaffected. To the extent legally permissible, the place of jurisdiction is Düsseldorf, Germany.",
+  "terms-severability-title": "Severability",
+  "terms-severability-content": "Should any provision of these Terms be or become invalid or unenforceable, the validity of the remaining provisions shall not be affected.",
   "terms-contact-title": "Contact",
   "terms-contact-content": "If you have questions about these Terms, please contact us:",
   "terms-last-update": "Status as of: July 4, 2026"
