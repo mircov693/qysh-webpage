@@ -34,6 +34,7 @@ Each top-level page is its own directory with an `index.html` (`/`, `/privacy/`,
 - Translatable elements carry a `data-i18n="key"` attribute; `updateContent()` looks the key up in the fetched language JSON and sets `element.innerHTML`.
 - Language resolution order on load: `?lang=` query param → `localStorage['language']` → `'en'` fallback.
 - **Every `data-i18n` key must exist with matching content in all three of `languages/de.json`, `languages/en.json`, and `languages/ru.json`.** Keys must stay in sync across files (same key set) — check this after editing.
+- The literal text inside each `data-i18n` element in the HTML is the pre-JS fallback (shown briefly before `updateContent()` swaps in the fetched language) and should be kept in sync with the English (`en.json`) value for that key — when adding/changing a key's content, update the HTML fallback text too, not just the JSON files. Since this text is raw HTML (not JSON), use plain `"` quotes there, not JSON-escaped `\"`.
 - The `legal/index.html` page has a special case: `fetchDisclaimerEn()` always shows an English version of the IQOS disclaimer (`iqos-disclaimer-en-container`) alongside the active language, for legal-notice reasons — don't remove this without checking why it's there.
 - App Store / Google Play badges (`badges/apple/{lang}.svg`, `badges/google/{lang}.svg`) are swapped per-language by `updateBadges()`.
 
