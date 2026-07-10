@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-theme" content="#000000">
+    <meta name="description" content="QYSH helps you track, plan and reduce your tobacco consumption – with statistics, countdown timers, reduction plans, widgets and an optional Bluetooth connection to compatible IQOS devices.">
+    <link rel="canonical" href="https://qysh.mircov.de/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://qysh.mircov.de/">
+    <meta property="og:title" content="QYSH – More control. Fewer cigarettes. Your pace.">
+    <meta property="og:description" content="Track, plan and reduce your tobacco consumption – with statistics, countdown timers, reduction plans, widgets and an optional Bluetooth connection to compatible IQOS devices.">
+    <meta property="og:image" content="https://qysh.mircov.de/images/QYSHIcon.png">
+    <meta name="twitter:card" content="summary">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/QYSHIcon.png" sizes="32x32">
     <link rel="icon" type="image/png" href="images/QYSHIcon.png" sizes="192x192">
@@ -17,7 +25,7 @@
 
 <nav class="navbar">
     <div class="app-label">
-        <img src="images/QYSHIcon.png" alt="app icon">
+        <img src="images/QYSHIcon.png" alt="QYSH app icon" data-i18n-alt="alt-app-icon">
         <p>QYSH</p>
     </div>
 
@@ -33,6 +41,7 @@
 
     <h1 data-i18n="main-title">More control. Fewer cigarettes. Your pace.</h1>
     <p data-i18n="main-app-description">QYSH helps you understand, reduce and achieve your goal – with clear statistics, smart timers and seamless device integration.</p>
+    <p data-i18n="main-optional-note">QYSH works for any type of smoking – the Bluetooth connection to compatible IQOS devices is entirely optional.</p>
 
     <div class="badge-list">
         <div class="badge" data-i18n="badge-countdown">Countdown until the next session</div>
@@ -52,10 +61,10 @@
                 <div class="icon">⏱️</div>
                 <h3 data-i18n="card-countdown-title">Countdown & Control</h3>
                 <p class="body-text" data-i18n="card-countdown-description">See exactly when the next session is, how many you've had today, and what limit applies.</p>
-                <img src="images/countdown.png" alt="" style="width: 70%;">
+                <img src="images/countdown.png" alt="Countdown timer showing time until the next session" data-i18n-alt="alt-countdown" style="width: 70%;">
             </div>
             <div class="card-image">
-                <img src="images/counter.png" alt="">
+                <img src="images/counter.png" alt="QYSH countdown screen with today's sessions and daily limit" data-i18n-alt="alt-counter">
             </div>
             
         </div>
@@ -66,7 +75,7 @@
                 <p class="body-text" data-i18n="card-statistic-description">Interactive diagrams for day, month, and year – including averages and costs.</p>
             </div>
             <div class="card-image">
-                <img src="images/progress.png" alt="">
+                <img src="images/progress.png" alt="QYSH statistics screen with interactive charts" data-i18n-alt="alt-progress">
             </div>
         </div>
         <div class="card iconed">
@@ -76,7 +85,7 @@
                 <p class="body-text" data-i18n="card-goals-description">Reduction plan with automatic intervals or fixed daily limits – you set the pace.</p>
             </div>
             <div class="card-image">
-                <img src="images/goals.png" alt="">
+                <img src="images/goals.png" alt="QYSH reduction plan and daily limit settings" data-i18n-alt="alt-goals">
             </div>
         </div>
         <div class="card iconed">
@@ -86,7 +95,7 @@
                 <p class="body-text" data-i18n="card-notifications-description">Notifications at timer end, daily limit, and daily summary.</p>
             </div>
             <div class="card-image">
-                <img src="images/notifications.png" alt="">
+                <img src="images/notifications.png" alt="QYSH notification examples" data-i18n-alt="alt-notifications">
             </div>
         </div>
     </div>
@@ -96,11 +105,11 @@
     <h1 data-i18n="functions-title">Features at a Glance</h1>
     <div class="card-list">
         <div class="card">
-            <h3 data-i18n="function-countdown-title">Countdown View</h3>
-            <p class="body-text" data-i18n="function-countdown-description">Today's sessions, daily limit, last session timestamp, and countdown to the next one. Quick entry – even retroactively.</p>
+            <h3 data-i18n="function-today-title">Today</h3>
+            <p class="body-text" data-i18n="function-today-description">Today's sessions, daily limit, last session timestamp, and countdown to the next one. Quick entry – even retroactively.</p>
         </div>
         <div class="card">
-            <h3 data-i18n="function-statistic-title">Statistics View</h3>
+            <h3 data-i18n="function-statistic-title">Statistics</h3>
             <p class="body-text" data-i18n="function-statistic-description">Day/Month/Year overview, scrollable charts, averages, cost calculation, and list of today's sessions (incl. deletion).</p>
         </div>
         <div class="card">
@@ -109,11 +118,15 @@
         </div>
         <div class="card">
             <h3 data-i18n="function-widgets-title">Widgets</h3>
-            <p class="body-text" data-i18n="function-widgets-description">All widget types, Lock Screen live timer, device widget with battery status – information at a glance.</p>
+            <p class="body-text" data-i18n="function-widgets-description">All widget types, device widget with battery status – information at a glance.</p>
         </div>
         <div class="card">
             <h3 data-i18n="function-watch-title">Watch OS/Wear OS App</h3>
             <p class="body-text" data-i18n="function-watch-description">Countdown, daily limit, last session, entry button, device overview with charging status – right on your wrist.</p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="function-siri-title">Siri & Shortcuts (iOS)</h3>
+            <p class="body-text" data-i18n="function-siri-description">Add a session hands-free via Siri or the Shortcuts app – without opening QYSH.</p>
         </div>
     </div>
 </section>
@@ -124,11 +137,11 @@
     <div class="card-list">
         <div class="card iconed">
             <div class="card-content">
-                <h3 data-i18n="widget-actual-title">Status Widget</h3>
-                <p class="body-text" data-i18n="widget-actual-description">Daily stats & countdown at a glance.</p>
+                <h3 data-i18n="widget-today-title">Today Widget</h3>
+                <p class="body-text" data-i18n="widget-today-description">Daily stats & countdown at a glance.</p>
             </div>
             <div class="card-image">
-                <img src="images/actual_widget.png" alt="">
+                <img src="images/today_widget.png" alt="Today widget with daily stats and countdown" data-i18n-alt="alt-today-widget">
             </div>
         </div>
         <div class="card iconed">
@@ -137,7 +150,7 @@
                 <p class="body-text" data-i18n="widget-device-description">Displays a device's battery level.</p>
             </div>
             <div class="card-image">
-                <img src="images/device_widget.png" alt="">
+                <img src="images/device_widget.png" alt="Device widget showing IQOS battery level" data-i18n-alt="alt-device-widget">
             </div>
         </div>
         <div class="card">
@@ -172,6 +185,8 @@
             <h4 data-i18n="integration-device-count">Up to four devices simultaneously</h4>
         </div>
     </div>
+    <p data-i18n="integrations-compatibility">Compatible devices: IQOS ORIGINALS DUO, IQOS ILUMA ONE, IQOS ILUMA, IQOS ILUMA PRIME, IQOS ILUMA i and IQOS ILUMA i PRIME. Available functions may vary depending on the model.</p>
+    <p style="font-size: 0.8em; opacity: 0.7;" data-i18n="iqos-disclaimer">IQOS is a trademark of Philip Morris Products S.A. QYSH is an independent app by Vladimir Cabacov (mircov) and is not affiliated with, endorsed, reviewed, or supported by Philip Morris Products S.A.</p>
 </section>
 
 <section id="download">
@@ -179,14 +194,18 @@
     <p data-i18n="download-description">Download QYSH and start your personal plan today.</p>
     <div class="badge-block">
         <!--  TODO: Link      -->
-        <a class="badge-link" href="http://localhost"><img id="app-store-badge" src="badges/apple/en.svg"></a>
-        <a class="badge-link" href="http://localhost"><img id="google-play-badge" src="badges/google/en.svg"></a>
+        <a class="badge-link" href="http://localhost"><img id="app-store-badge" src="badges/apple/en.svg" alt="Download on the App Store" data-i18n-alt="alt-app-store-badge"></a>
+        <a class="badge-link" href="http://localhost"><img id="google-play-badge" src="badges/google/en.svg" alt="Get it on Google Play" data-i18n-alt="alt-google-play-badge"></a>
     </div>
 </section>
 
 <section id="faq">
     <h1 data-i18n="faq-title">FAQ</h1>
     <div class="card-list">
+        <div class="card">
+            <h3 data-i18n="faq-question-standalone">Does QYSH work without an IQOS device?</h3>
+            <p class="body-text" data-i18n="faq-answer-standalone">Yes. All core features – countdown, statistics, reduction plans, notifications, and widgets – work completely without a connected device: simply log your sessions with the '+' button. The Bluetooth connection to compatible IQOS devices is an optional extra.</p>
+        </div>
         <div class="card">
             <h3 data-i18n="faq-question-plan">How do I set my daily limit or reduction plan?</h3>
             <p class="body-text" data-i18n="faq-answer-plan">When you first start the app, you'll be asked whether you want to use a fixed limit or a reduction plan. You can change this anytime in the Countdown settings. There, you define how many sessions per day you want and whether this number should automatically decrease over time.</p>
@@ -235,13 +254,27 @@
             <h3 data-i18n="faq-question-privacy">What data does the app collect?</h3>
             <p class="body-text" data-i18n="faq-answer-privacy">The app only stores the information you enter. No personal data is sent to third parties or stored on servers.</p>
         </div>
+        <div class="card">
+            <h3 data-i18n="faq-question-device-change">What happens to my data when I switch phones?</h3>
+            <p class="body-text" data-i18n="faq-answer-device-change">Your data is stored locally on your smartphone. If your device backup (e.g., iCloud or Google backup) or device-to-device transfer is enabled, your entries and settings are restored on the new phone. Without a backup, the data cannot be recovered.</p>
+        </div>
+        <div class="card">
+            <h3 data-i18n="faq-question-sync">Does the app sync between multiple devices?</h3>
+            <p class="body-text" data-i18n="faq-answer-sync">No. Your data stays local on one smartphone – there is no cloud synchronization between multiple smartphones. The Watch OS/Wear OS app mirrors the data of the connected smartphone.</p>
+        </div>
     </div>
+</section>
+
+<section id="support">
+    <h1 data-i18n="support-title">Support & Contact</h1>
+    <p data-i18n="support-description">Questions, feedback, or a problem with the app? Write to us:</p>
+    <a href="mailto:info@mircov.com">info@mircov.com</a>
 </section>
 
 <div class="footer">
     <p>&#169; <span id="year">year</span> mircov</p>
 
-    <select id="languages" name="languages" aria-label="Language" onchange="changeLanguage(this.value)">
+    <select id="languages" name="languages" aria-label="Language" data-i18n-aria-label="language-select-label" onchange="changeLanguage(this.value)">
         <option value="de">Deutsch</option>
         <option value="en">English</option>
         <option value="ru">Русский</option>

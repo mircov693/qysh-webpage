@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qysh.mircov.de/sitemap.xml

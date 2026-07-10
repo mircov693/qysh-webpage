@@ -13,6 +13,30 @@ function updateContent(langData) {
             element.innerHTML = langData[key];
         }
     });
+
+    document.querySelectorAll('[data-i18n-alt]').forEach(element => {
+        const key = element.getAttribute('data-i18n-alt');
+
+        if (Object.prototype.hasOwnProperty.call(langData, key)) {
+            element.alt = langData[key];
+        }
+    });
+
+    document.querySelectorAll('[data-i18n-aria-label]').forEach(element => {
+        const key = element.getAttribute('data-i18n-aria-label');
+
+        if (Object.prototype.hasOwnProperty.call(langData, key)) {
+            element.setAttribute('aria-label', langData[key]);
+        }
+    });
+
+    document.querySelectorAll('title[data-i18n-doc-title]').forEach(element => {
+        const key = element.getAttribute('data-i18n-doc-title');
+
+        if (Object.prototype.hasOwnProperty.call(langData, key)) {
+            element.textContent = `QYSH – ${langData[key]}`;
+        }
+    });
 }
 
 function updateBadges(lang) {
