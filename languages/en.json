@@ -30,8 +30,6 @@
   "function-widgets-description": "All widget types, device widget with battery status – information at a glance.",
   "function-watch-title": "Watch OS/Wear OS App",
   "function-watch-description": "Countdown, daily limit, last session, entry button, device overview with charging status – right on your wrist.",
-  "function-siri-title": "Siri & Shortcuts (iOS)",
-  "function-siri-description": "Add a session hands-free via Siri or the Shortcuts app – without opening QYSH.",
 
   "widgets-title": "Always informed – without opening the app",
   "widgets-description": "Home Screen and device widgets, and Watch OS/Wear OS widgets keep your progress right at your fingertips.",
