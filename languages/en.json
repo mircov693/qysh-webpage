@@ -144,6 +144,8 @@
   "faq-answer-device-battery-low": "No, that is not recommended. If the battery is completely drained, the connection may be lost.",
   "faq-question-connection-issue": "What should I do if my device is disconnected?",
   "faq-answer-connection-issue": "If the connection fails even after automatic reconnection attempts, turn the device off and on again.",
+  "faq-question-pairing-not-found": "My device is not found during pairing – why?",
+  "faq-answer-pairing-not-found": "The device is probably connected to another app or another phone and is therefore not visible. Disconnect it there or close the other app, turn the device off and on again, and start the pairing again.",
   "faq-question-watch-companion": "Does the Watch OS/Wear OS app work without the iOS/Android app?",
   "faq-answer-watch-companion": "No, the Watch OS/Wear OS app requires an active connection to the iOS/Android app to display data and device information.",
   "faq-question-device-settings": "When can I change my device settings?",

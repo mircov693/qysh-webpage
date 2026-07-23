@@ -144,6 +144,8 @@
   "faq-answer-device-battery-low": "Nein, das ist nicht empfehlenswert. Wenn der Akku vollständig leer ist, kann die Verbindung verloren gehen.",
   "faq-question-connection-issue": "Was tun, wenn mein Gerät nicht mehr verbunden ist?",
   "faq-answer-connection-issue": "Falls die Verbindung auch nach dem automatischen Wiederverbinden nicht funktioniert, schalte das Gerät einmal aus und wieder ein.",
+  "faq-question-pairing-not-found": "Mein Gerät wird beim Koppeln nicht gefunden – woran liegt das?",
+  "faq-answer-pairing-not-found": "Wahrscheinlich ist das Gerät gerade mit einer anderen App oder einem anderen Handy verbunden und deshalb nicht sichtbar. Trenne dort die Verbindung oder schließe die andere App, schalte das Gerät einmal aus und wieder ein und starte die Kopplung erneut.",
   "faq-question-watch-companion": "Funktioniert die Watch OS/Wear OS - App auch ohne die iOS/Android-App?",
   "faq-answer-watch-companion": "Nein, die Watch OS/Wear OS - App benötigt eine aktive Verbindung zur iOS/Android-App, um Daten und Geräteinformationen anzuzeigen.",
   "faq-question-device-settings": "Wann kann ich die Einstellungen meines Geräts ändern?",

@@ -40,7 +40,7 @@ Each top-level page is its own directory with an `index.html` (`/`, `/privacy/`,
 
 ### Legal content (`privacy/`, `terms/`, `legal/`)
 
-- Provider/data controller: Vladimir Cabacov (mircov), Germaniastr. 30, 40223 Düsseldorf, Germany — `info@mircov.com`. Governed by German law/GDPR; competent supervisory authority is LDI NRW.
+- Provider/data controller: Vladimir Cabacov (mircov), Germaniastr. 30, 40223 Düsseldorf, Germany — `info@mircov.de`. Governed by German law/GDPR; competent supervisory authority is LDI NRW.
 - The app stores all user data locally on-device (no backend server). Paid access is via subscriptions (monthly/annual/lifetime) billed exclusively through the Apple App Store / Google Play — no custom payment backend, no third-party subscription SDK (e.g. no RevenueCat).
 - IQOS is a Philip Morris Products S.A. trademark; the app/provider has no affiliation — this disclaimer must stay intact in `legal/index.html`.
 - Minimum age for app use is 18 (tobacco-related content).
