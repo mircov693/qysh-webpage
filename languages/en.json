@@ -156,8 +156,6 @@
   "faq-answer-watch-companion": "No, the Watch OS/Wear OS app requires an active connection to the iOS/Android app to display data and device information.",
   "faq-question-device-settings": "When can I change my device settings?",
   "faq-answer-device-settings": "Device settings can only be changed when the device is connected and the Holder is inside the charging case (except for IQOS ILUMA ONE).",
-  "faq-question-background-task": "What is the background process for?",
-  "faq-answer-background-task": "The background process generates a daily summary of your sessions for the previous day.",
   "faq-question-multiple-session-recognition": "What is Multiple Session Recognition?",
   "faq-answer-multiple-session-recognition": "This feature automatically adds all sessions once the Holder is recharged in the charging case. Note: When Pause Mode is used, the number of sessions cannot be detected correctly.",
   "faq-question-offline-sessions": "Are sessions tracked when my device is not connected to my phone?",
