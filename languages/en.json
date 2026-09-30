@@ -53,11 +53,11 @@
   "language-select-label": "Language",
 
   "integrations-title": "Device Compatibility",
-  "integrations-description": "Monitor and control your compatible devices through QYSH.",
+  "integrations-description": "Monitor your compatible devices through QYSH.",
   "integration-auto-count": "Automatic session counting during usage",
   "integration-status": "Battery level & connection status",
   "integration-notifications": "Notifications: not in charger, connection lost, battery low/full",
-  "integration-settings": "Customize device settings and functions",
+  "integration-settings": "Adjust device settings on supported models (experimental, may be limited or removed)",
   "integration-device-count": "Up to three devices simultaneously",
   "integrations-compatibility": "Compatible devices: IQOS ILUMA ONE, IQOS ILUMA, IQOS ILUMA PRIME, IQOS ILUMA i and IQOS ILUMA i PRIME. Available functions may vary depending on the model.",
 
@@ -125,7 +125,6 @@
   "pricing-free-watch": "Watch OS/Wear OS companion app",
   "pricing-pro-title": "QYSH Pro",
   "pricing-pro-device": "Device connection with automatic session detection",
-  "pricing-pro-settings": "Device settings (on compatible devices)",
   "pricing-pro-notifications": "Device status notifications (battery & connection)",
   "pricing-pro-statistics": "Detailed statistics with cost tracking",
   "pricing-pro-widget": "Device widget",

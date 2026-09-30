@@ -53,11 +53,11 @@
   "language-select-label": "Язык",
 
   "integrations-title": "Совместимость устройств",
-  "integrations-description": "Отслеживайте и управляйте совместимыми устройствами через QYSH.",
+  "integrations-description": "Отслеживайте совместимые устройства через QYSH.",
   "integration-auto-count": "Автоматический подсчёт сессий во время использования",
   "integration-status": "Уровень заряда и состояние подключения",
   "integration-notifications": "Уведомления: устройство не в зарядном кейсе, потеря соединения, низкий или полный заряд",
-  "integration-settings": "Настройка параметров и функций устройства",
+  "integration-settings": "Изменение настроек устройства на поддерживаемых моделях (экспериментально, может быть ограничено или отключено)",
   "integration-device-count": "До трёх устройств одновременно",
   "integrations-compatibility": "Совместимые устройства: IQOS ILUMA ONE, IQOS ILUMA, IQOS ILUMA PRIME, IQOS ILUMA i и IQOS ILUMA i PRIME. Доступные функции могут различаться в зависимости от модели.",
 
@@ -125,7 +125,6 @@
   "pricing-free-watch": "Приложение для Watch OS/Wear OS",
   "pricing-pro-title": "QYSH Pro",
   "pricing-pro-device": "Подключение устройств с автоматическим распознаванием сессий",
-  "pricing-pro-settings": "Настройки устройства (на совместимых устройствах)",
   "pricing-pro-notifications": "Уведомления о статусе устройства (батарея и подключение)",
   "pricing-pro-statistics": "Подробная статистика с учётом расходов",
   "pricing-pro-widget": "Виджет устройства",

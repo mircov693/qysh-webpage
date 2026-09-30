@@ -53,11 +53,11 @@
   "language-select-label": "Sprache",
 
   "integrations-title": "Gerätekompatibilität",
-  "integrations-description": "Überwache und steuere deine kompatiblen Geräte über QYSH.",
+  "integrations-description": "Überwache deine kompatiblen Geräte über QYSH.",
   "integration-auto-count": "Automatische Zählung der Sessions bei Nutzung",
   "integration-status": "Akku‑Level & Verbindungsstatus",
   "integration-notifications": "Benachrichtigungen: nicht im Ladecase, Verbindung verloren, Akku schwach/voll",
-  "integration-settings": "Anpassung von Einstellungen und Funktionen der Geräte",
+  "integration-settings": "Geräteeinstellungen bei unterstützten Modellen anpassen (experimentell, kann eingeschränkt werden oder entfallen)",
   "integration-device-count": "Bis zu drei Geräte gleichzeitig",
   "integrations-compatibility": "Kompatible Geräte: IQOS ILUMA ONE, IQOS ILUMA, IQOS ILUMA PRIME, IQOS ILUMA i und IQOS ILUMA i PRIME. Der Funktionsumfang kann je nach Modell variieren.",
 
@@ -125,7 +125,6 @@
   "pricing-free-watch": "Watch OS/Wear OS Begleit-App",
   "pricing-pro-title": "QYSH Pro",
   "pricing-pro-device": "Geräteverbindung mit automatischer Session-Erkennung",
-  "pricing-pro-settings": "Geräteeinstellungen (auf kompatiblen Geräten)",
   "pricing-pro-notifications": "Gerätestatus-Benachrichtigungen (Akku & Verbindung)",
   "pricing-pro-statistics": "Detaillierte Statistiken mit Kostenübersicht",
   "pricing-pro-widget": "Gerätewidget",
